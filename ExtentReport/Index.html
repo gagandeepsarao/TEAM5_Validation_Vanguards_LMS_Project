@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Apr 25, 2024 11:13:30 AM</span></a>
+<a href="#"><span class="badge badge-primary">Apr 29, 2024 07:44:14 PM</span></a>
 </li>
 </ul>
 </div>
@@ -45,6 +45,11 @@
 <li class="nav-item dropdown" onclick="toggleView('test-view')">
 <a id="nav-test" class="dropdown-toggle" href="#">
 <span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
 </a>
 </li>
 <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
@@ -71,6 +76,12 @@
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
 </li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@TS14</a><a class="dropdown-item" href="#">@TS8</a><a class="dropdown-item" href="#">@TS12</a><a class="dropdown-item" href="#">@TS2</a><a class="dropdown-item" href="#">@TS22</a><a class="dropdown-item" href="#">@TS6</a><a class="dropdown-item" href="#">@TS9</a><a class="dropdown-item" href="#">@TS15</a><a class="dropdown-item" href="#">@TS21</a><a class="dropdown-item" href="#">@TS24</a><a class="dropdown-item" href="#">@TS19</a><a class="dropdown-item" href="#">@TS20</a><a class="dropdown-item" href="#">@TS17</a><a class="dropdown-item" href="#">@TS5</a><a class="dropdown-item" href="#">@TS11</a><a class="dropdown-item" href="#">@TS16</a><a class="dropdown-item" href="#">@TS23</a><a class="dropdown-item" href="#">@TS1</a><a class="dropdown-item" href="#">@TS10</a><a class="dropdown-item" href="#">@TS4</a><a class="dropdown-item" href="#">@TS3</a><a class="dropdown-item" href="#">@TS25</a><a class="dropdown-item" href="#">@Program</a><a class="dropdown-item" href="#">@TS7</a><a class="dropdown-item" href="#">@TS18</a><a class="dropdown-item" href="#">@TS13</a>
+</ul>
+</li>
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
@@ -81,7 +92,7 @@
           <div class="test-detail">
             <p class="name">Home Page Verification</p>
             <p class="text-sm">
-              <span>11:13:31 AM</span> / <span>00:00:04:871</span>
+              <span>7:44:15 PM</span> / <span>00:00:06:119</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -90,9 +101,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">Home Page Verification</h5>
-<span class='badge badge-success'>04.25.2024 11:13:31 AM</span>
-<span class='badge badge-danger'>04.25.2024 11:13:36 AM</span>
-<span class='badge badge-default'>00:00:04:871</span>
+<span class='badge badge-success'>04.29.2024 7:44:15 PM</span>
+<span class='badge badge-danger'>04.29.2024 7:44:21 PM</span>
+<span class='badge badge-default'>00:00:06:119</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -130,6 +141,936 @@
 </div>
           </div>
         </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Manage Program Validation</p>
+            <p class="text-sm">
+              <span>7:44:22 PM</span> / <span>00:02:19:505</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Manage Program Validation</h5>
+<span class='badge badge-success'>04.29.2024 7:44:22 PM</span>
+<span class='badge badge-danger'>04.29.2024 7:46:41 PM</span>
+<span class='badge badge-default'>00:02:19:505</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="9"><span class="badge log pass-bg mr-2">Pass</span>Validate landing in Program page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_is_on_dashboard_page_after_login()">
+                <span>Given Admin is on dashboard page after Login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_clicks_on_the_navigation_bar(java.lang.String)">
+                <span>When Admin clicks "Program" on the navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_should_see_url_with(java.lang.String)">
+                <span>Then Admin should see URL with "Manage Program"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="17"><span class="badge log pass-bg mr-2">Pass</span>Validate the heading</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_is_on_dashboard_page_after_login()">
+                <span>Given Admin is on dashboard page after Login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_clicks_on_the_navigation_bar(java.lang.String)">
+                <span>When Admin clicks "Program" on the navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_should_see_a_heading_with_text_on_the_page(java.lang.String)">
+                <span>Then Admin should see a heading with text "Manage Program" on the page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="25"><span class="badge log pass-bg mr-2">Pass</span>Validate the text and pagination icon below the data table</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_is_on_dashboard_page_after_login()">
+                <span>Given Admin is on dashboard page after Login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_clicks_on_the_navigation_bar(java.lang.String)">
+                <span>When Admin clicks "Program" on the navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_should_see_the_text_as_along_with_pagination_icon_below_the_table(java.lang.String)">
+                <span>Then Admin should see the text as "Showing x to y of z entries" along with Pagination icon below the table.</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="33"><span class="badge log pass-bg mr-2">Pass</span>Validate the footer</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_is_on_dashboard_page_after_login()">
+                <span>Given Admin is on dashboard page after Login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_clicks_on_the_navigation_bar(java.lang.String)">
+                <span>When Admin clicks "Program" on the navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_should_see_the_footer_as_z_total_number_of_records(java.lang.String)">
+                <span>Then Admin should see the footer as "In total there are z programs" z- Total number of records</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="41"><span class="badge log pass-bg mr-2">Pass</span>Validating the default state of Delete button</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_is_on_dashboard_page_after_login()">
+                <span>Given Admin is on dashboard page after Login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_clicks_on_the_navigation_bar(java.lang.String)">
+                <span>When Admin clicks "Program" on the navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_should_see_a_delete_button_on_the_top_left_hand_side_as_disabled()">
+                <span>Then Admin should see a Delete button on the top left hand side as Disabled</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="49"><span class="badge log pass-bg mr-2">Pass</span>Validate Add New Program</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_is_on_dashboard_page_after_login()">
+                <span>Given Admin is on dashboard page after Login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_clicks_on_the_navigation_bar(java.lang.String)">
+                <span>When Admin clicks "Program" on the navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_should_see_a_button_on_the_program_page_above_the_data_table(java.lang.String)">
+                <span>Then Admin should see a "+A New Program" button on the program page above the data table</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="57"><span class="badge log pass-bg mr-2">Pass</span>Validate that number of records (rows of data in the table) displayed</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_is_on_dashboard_page_after_login()">
+                <span>Given Admin is on dashboard page after Login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_clicks_on_the_navigation_bar(java.lang.String)">
+                <span>When Admin clicks "Program" on the navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_should_see_the_number_of_records_rows_of_data_in_the_table_displayed_on_the_page_are(java.lang.Integer)">
+                <span>Then Admin should see the number of records (rows of data in the table) displayed on the page are 5</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="65"><span class="badge log pass-bg mr-2">Pass</span>Verify data table on the Program page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_is_on_dashboard_page_after_login()">
+                <span>Given Admin is on dashboard page after Login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_clicks_on_the_navigation_bar(java.lang.String)">
+                <span>When Admin clicks "Program" on the navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_should_see_data_table_on_the_manage_program_page_with_following_column_headers_program_name_program_description_program_status_edit_delete()">
+                <span>Then Admin should see data table on the Manage Program Page with following column headers (Program Name, Program Description, Program Status, Edit,Delete)</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="73"><span class="badge log pass-bg mr-2">Pass</span>Verify Sort arrow icon on the data table</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_is_on_dashboard_page_after_login()">
+                <span>Given Admin is on dashboard page after Login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_clicks_on_the_navigation_bar(java.lang.String)">
+                <span>When Admin clicks "Program" on the navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_should_see_the_sort_arrow_icon_beside_to_each_column_header_except_edit_and_delete()">
+                <span>Then Admin should see the sort arrow icon beside to each column header except Edit and Delete</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="81"><span class="badge log pass-bg mr-2">Pass</span>Verify Check box on the data table</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_is_on_dashboard_page_after_login()">
+                <span>Given Admin is on dashboard page after Login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_clicks_on_the_navigation_bar(java.lang.String)">
+                <span>When Admin clicks "Program" on the navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_should_see_check_box_on_the_left_side_in_all_rows_of_the_data_table()">
+                <span>Then Admin should see check box on the left side in all rows of the data table</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="89"><span class="badge log pass-bg mr-2">Pass</span>Verify Edit and Delete buttons</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_is_on_dashboard_page_after_login()">
+                <span>Given Admin is on dashboard page after Login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_clicks_on_the_navigation_bar(java.lang.String)">
+                <span>When Admin clicks "Program" on the navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_should_see_the_edit_and_delete_buttons_on_each_row_of_the_data_table()">
+                <span>Then Admin should see the Edit and Delete buttons on each row of the data table</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="97"><span class="badge log pass-bg mr-2">Pass</span>Verify Search bar on the Program page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_is_on_dashboard_page_after_login()">
+                <span>Given Admin is on dashboard page after Login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_clicks_on_the_navigation_bar(java.lang.String)">
+                <span>When Admin clicks "Program" on the navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_should_see_search_bar_with_text_as(java.lang.String)">
+                <span>Then Admin should see Search bar with text as "Search..."</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="105"><span class="badge log pass-bg mr-2">Pass</span>Validates Sorting(data ordering) ascending on the Program Data table - ProgramName</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_is_on_manage_program_page_after_clicking_on_button_on_navigation_bar(java.lang.String)">
+                <span>Given Admin is on Manage Program page after clicking on 'Program' button on navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_clicks_the_sort_icon_of_program_name_column()">
+                <span>When Admin clicks the sort icon of program name column</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.the_data_get_sorted_on_the_table_based_on_the_program_name_column_values_in_ascending_order()">
+                <span>Then The data get sorted on the table based on the program name column values in ascending order</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="113"><span class="badge log pass-bg mr-2">Pass</span>Validates Sorting(data ordering) descending on the Program Data table - ProgramName</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.the_data_is_in_the_ascending_order_on_the_table_based_on_program_name_column()">
+                <span>Given The data is in the ascending order on the table based on Program Name column</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_clicks_the_sort_icon_of_program_name_column()">
+                <span>When Admin clicks the sort icon of program name column</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.the_data_get_sorted_on_the_table_based_on_the_program_name_column_values_in_descending_order()">
+                <span>Then The data get sorted on the table based on the program name column values in descending order</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="121"><span class="badge log pass-bg mr-2">Pass</span>Validates Sorting(data ordering) ascending on the Program Data table - Program Description</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_is_on_manage_program_page_after_clicking_on_button_on_navigation_bar(java.lang.String)">
+                <span>Given Admin is on Manage Program page after clicking on 'Program' button on navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_clicks_the_sort_icon_of_program_description_column()">
+                <span>When Admin clicks the sort icon of program description column</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.the_data_get_sorted_on_the_table_based_on_the_program_description_column_values_in_ascending_order()">
+                <span>Then The data get sorted on the table based on the program description column values in ascending order</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="129"><span class="badge log pass-bg mr-2">Pass</span>Validates Sorting(data ordering) descending on the Program Data table - Program Description</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.the_data_is_in_the_ascending_order_on_the_table_based_on_program_description_column()">
+                <span>Given The data is in the ascending order on the table based on Program Description column</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_clicks_the_sort_icon_of_program_description_column()">
+                <span>When Admin clicks the sort icon of program description column</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.the_data_get_sorted_on_the_table_based_on_the_program_description_column_values_in_descending_order()">
+                <span>Then The data get sorted on the table based on the program description column values in descending order</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="137"><span class="badge log pass-bg mr-2">Pass</span>Validates Sorting(data ordering) ascending on the Program Data table - Program Description</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_is_on_manage_program_page_after_clicking_on_button_on_navigation_bar(java.lang.String)">
+                <span>Given Admin is on Manage Program page after clicking on 'Program' button on navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_clicks_the_sort_icon_of_program_status_column()">
+                <span>When Admin clicks the sort icon of program status column</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.the_data_get_sorted_on_the_table_based_on_the_program_status_column_values_in_ascending_order()">
+                <span>Then The data get sorted on the table based on the program status column values in ascending order</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="145"><span class="badge log pass-bg mr-2">Pass</span>Validates Sorting(data ordering) descending on the Program Data table - Program Description</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.the_data_is_in_the_ascending_order_on_the_table_based_on_program_status_column()">
+                <span>Given The data is in the ascending order on the table based on Program status column</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_clicks_the_sort_icon_of_program_status_column()">
+                <span>When Admin clicks the sort icon of program status column</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.the_data_get_sorted_on_the_table_based_on_the_program_status_column_values_in_descending_order()">
+                <span>Then The data get sorted on the table based on the program status column values in descending order</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="153"><span class="badge log pass-bg mr-2">Pass</span>Verify Next page link</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_is_on_manage_program_page_after_logged_in()">
+                <span>Given Admin is on Manage Program Page after logged in</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_clicks_next_page_link_on_the_program_table()">
+                <span>When Admin clicks Next page link on the program table</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_should_see_the_pagination_has_active_link(java.lang.String)">
+                <span>Then Admin should see the Pagination has "Next" active link</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="161"><span class="badge log pass-bg mr-2">Pass</span>Verify Last page link</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_is_on_manage_program_page_after_logged_in()">
+                <span>Given Admin is on Manage Program Page after logged in</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_clicks_last_page_link()">
+                <span>When Admin clicks Last page link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_should_see_the_last_page_record_on_the_table_with_next_page_link_are_disabled()">
+                <span>Then Admin should see the last page record on the table with Next page link are disabled</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="169"><span class="badge log pass-bg mr-2">Pass</span>Verify Prev page link</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_is_on_last_page_of_program_table()">
+                <span>Given Admin is on last page of Program table</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_clicks_prev_page_link()">
+                <span>When Admin clicks Prev page link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_should_see_the_previous_page_record_on_the_table_with_pagination_has_previous_page_link()">
+                <span>Then Admin should see the previous page record on the table with pagination has previous page link</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="177"><span class="badge log pass-bg mr-2">Pass</span>Verify Start page link</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_is_on_previous_program_page()">
+                <span>Given Admin is on Previous Program page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_clicks_start_page_link()">
+                <span>When Admin clicks Start page link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_should_see_the_very_first_page_record_on_the_table_with_previous_page_link_are_disabled()">
+                <span>Then Admin should see the very first page record on the table with Previous page link are disabled</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="185"><span class="badge log pass-bg mr-2">Pass</span>Batch link on navigation bar</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_is_on_manage_program_page_after_clicking_on_button_on_navigation_bar(java.lang.String)">
+                <span>Given Admin is on Manage Program page after clicking on 'Program' button on navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_clicks_on_batch_link_on_manage_program_page()">
+                <span>When Admin clicks on Batch link on Manage Program page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_is_re_directed_to_batch_page()">
+                <span>Then Admin is re-directed to Batch page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="193"><span class="badge log pass-bg mr-2">Pass</span>Batch link on navigation bar</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_is_on_manage_program_page_after_clicking_on_button_on_navigation_bar(java.lang.String)">
+                <span>Given Admin is on Manage Program page after clicking on 'Program' button on navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_clicks_on_user_link_on_manage_program_page()">
+                <span>When Admin clicks on User link on Manage Program page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_is_re_directed_to_user_page()">
+                <span>Then Admin is re-directed to User page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="201"><span class="badge log pass-bg mr-2">Pass</span>Batch link on navigation bar</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="step_definitions.Login.admin_is_in_home_page()">
+                <span>Given Admin is in Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Login.admin_enter_valid_credentials_and_clicks_login_button()">
+                <span>When Admin enter valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_is_on_manage_program_page_after_clicking_on_button_on_navigation_bar(java.lang.String)">
+                <span>Given Admin is on Manage Program page after clicking on 'Program' button on navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_clicks_on_logout_link_on_manage_program_page()">
+                <span>When Admin clicks on Logout link on Manage Program page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="step_definitions.Program.admin_is_re_directed_to_login_page()">
+                <span>Then Admin is re-directed to Login page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
       </ul>
     </div>
   </div>
@@ -139,24 +1080,1216 @@
 </div>
 <div class="test-content-detail"><div class="detail-body"></div></div>
 </div></div>
-<div class="container-fluid p-4 view dashboard-view">
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">26</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@TS14</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@TS14</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:45:33 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='113'>Validates Sorting(data ordering) descending on the Program Data table - ProgramName</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Validates Sorting(data ordering) descending on the Program Data table - ProgramName</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@TS8</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@TS8</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:45:00 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='65'>Verify data table on the Program page</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Verify data table on the Program page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@TS12</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@TS12</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:45:22 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='97'>Verify Search bar on the Program page</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Verify Search bar on the Program page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@TS2</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@TS2</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:44:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='17'>Validate the heading</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Validate the heading</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@TS22</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@TS22</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:46:19 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='177'>Verify Start page link</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Verify Start page link</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@TS6</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@TS6</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:44:49 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='49'>Validate Add New Program</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Validate Add New Program</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@TS9</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@TS9</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:45:05 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='73'>Verify Sort arrow icon on the data table</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Verify Sort arrow icon on the data table</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@TS15</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@TS15</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:45:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='121'>Validates Sorting(data ordering) ascending on the Program Data table - Program Description</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Validates Sorting(data ordering) ascending on the Program Data table - Program Description</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@TS21</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@TS21</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:46:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='169'>Verify Prev page link</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Verify Prev page link</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@TS24</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@TS24</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:46:30 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='193'>Batch link on navigation bar</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Batch link on navigation bar</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@TS19</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@TS19</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:46:03 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='153'>Verify Next page link</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Verify Next page link</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@TS20</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@TS20</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:46:09 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='161'>Verify Last page link</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Verify Last page link</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@TS17</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@TS17</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:45:49 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='137'>Validates Sorting(data ordering) ascending on the Program Data table - Program Description</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Validates Sorting(data ordering) ascending on the Program Data table - Program Description</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@TS5</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@TS5</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:44:43 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='41'>Validating the default state of Delete button</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Validating the default state of Delete button</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@TS11</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@TS11</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:45:16 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='89'>Verify Edit and Delete buttons</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Verify Edit and Delete buttons</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@TS16</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@TS16</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:45:44 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='129'>Validates Sorting(data ordering) descending on the Program Data table - Program Description</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Validates Sorting(data ordering) descending on the Program Data table - Program Description</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@TS23</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@TS23</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:46:25 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='185'>Batch link on navigation bar</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Batch link on navigation bar</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@TS1</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@TS1</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:44:22 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='9'>Validate landing in Program page</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Validate landing in Program page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@TS10</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@TS10</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:45:10 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='81'>Verify Check box on the data table</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Verify Check box on the data table</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@TS4</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@TS4</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:44:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='33'>Validate the footer</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Validate the footer</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@TS3</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@TS3</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:44:32 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='25'>Validate the text and pagination icon below the data table</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Validate the text and pagination icon below the data table</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@TS25</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@TS25</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:46:36 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='201'>Batch link on navigation bar</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Batch link on navigation bar</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>25</span>
+</span>
+<p class="name">@Program</p>
+<p class="duration text-sm">25 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Program</h4>
+<span status="pass" class='badge log pass-bg'>25 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:44:22 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='9'>Validate landing in Program page</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Validate landing in Program page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:44:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='17'>Validate the heading</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Validate the heading</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:44:32 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='25'>Validate the text and pagination icon below the data table</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Validate the text and pagination icon below the data table</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:44:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='33'>Validate the footer</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Validate the footer</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:44:43 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='41'>Validating the default state of Delete button</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Validating the default state of Delete button</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:44:49 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='49'>Validate Add New Program</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Validate Add New Program</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:44:54 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='57'>Validate that number of records (rows of data in the table) displayed</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Validate that number of records (rows of data in the table) displayed</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:45:00 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='65'>Verify data table on the Program page</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Verify data table on the Program page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:45:05 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='73'>Verify Sort arrow icon on the data table</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Verify Sort arrow icon on the data table</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:45:10 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='81'>Verify Check box on the data table</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Verify Check box on the data table</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:45:16 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='89'>Verify Edit and Delete buttons</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Verify Edit and Delete buttons</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:45:22 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='97'>Verify Search bar on the Program page</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Verify Search bar on the Program page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:45:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='105'>Validates Sorting(data ordering) ascending on the Program Data table - ProgramName</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Validates Sorting(data ordering) ascending on the Program Data table - ProgramName</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:45:33 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='113'>Validates Sorting(data ordering) descending on the Program Data table - ProgramName</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Validates Sorting(data ordering) descending on the Program Data table - ProgramName</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:45:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='121'>Validates Sorting(data ordering) ascending on the Program Data table - Program Description</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Validates Sorting(data ordering) ascending on the Program Data table - Program Description</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:45:44 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='129'>Validates Sorting(data ordering) descending on the Program Data table - Program Description</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Validates Sorting(data ordering) descending on the Program Data table - Program Description</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:45:49 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='137'>Validates Sorting(data ordering) ascending on the Program Data table - Program Description</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Validates Sorting(data ordering) ascending on the Program Data table - Program Description</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:45:58 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='145'>Validates Sorting(data ordering) descending on the Program Data table - Program Description</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Validates Sorting(data ordering) descending on the Program Data table - Program Description</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:46:03 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='153'>Verify Next page link</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Verify Next page link</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:46:09 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='161'>Verify Last page link</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Verify Last page link</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:46:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='169'>Verify Prev page link</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Verify Prev page link</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:46:19 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='177'>Verify Start page link</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Verify Start page link</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:46:25 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='185'>Batch link on navigation bar</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Batch link on navigation bar</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:46:30 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='193'>Batch link on navigation bar</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Batch link on navigation bar</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:46:36 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='201'>Batch link on navigation bar</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Batch link on navigation bar</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@TS7</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@TS7</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:44:54 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='57'>Validate that number of records (rows of data in the table) displayed</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Validate that number of records (rows of data in the table) displayed</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@TS18</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@TS18</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:45:58 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='145'>Validates Sorting(data ordering) descending on the Program Data table - Program Description</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Validates Sorting(data ordering) descending on the Program Data table - Program Description</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@TS13</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@TS13</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>19:45:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='105'>Validates Sorting(data ordering) ascending on the Program Data table - ProgramName</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Validates Sorting(data ordering) ascending on the Program Data table - ProgramName</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
 <div class="row">
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Apr 25, 2024 11:13:30 AM</h3>
+<h3>Apr 29, 2024 07:44:14 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Apr 25, 2024 11:13:36 AM</h3>
+<h3>Apr 29, 2024 07:46:41 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Features Passed</p>
-<h3>1</h3>
+<h3>2</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -179,7 +2312,7 @@
 </div>
 <div class="card-footer">
 <div><small data-tooltip='100%'>
-<b>1</b> features passed
+<b>2</b> features passed
 </small>
 </div>
 <div>
@@ -201,7 +2334,7 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>1</b> scenarios passed</small></div>
+<div><small data-tooltip='100%'><b>26</b> scenarios passed</small></div>
 <div>
 <small data-tooltip='0%'><b>0</b> scenarios failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
@@ -221,7 +2354,7 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>3</b> steps passed</small></div>
+<div><small data-tooltip='100%'><b>128</b> steps passed</small></div>
 <div>
 <small data-tooltip='0%'><b>0</b> steps failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
@@ -240,27 +2373,244 @@
 </div></div>
 <script>
 var timeline = {
-"Home Page Verification":4.871
+"Home Page Verification":6.119,"Manage Program Validation":139.505
 };
 </script>
 <div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@TS14</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@TS8</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@TS12</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@TS2</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@TS22</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@TS6</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@TS9</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@TS15</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@TS21</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@TS24</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@TS19</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@TS20</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@TS17</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@TS5</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@TS11</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@TS16</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@TS23</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@TS1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@TS10</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@TS4</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@TS3</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@TS25</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@Program</td>
+<td>25</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@TS7</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@TS18</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@TS13</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
 </div>
 </div>
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 1,
+passParent: 2,
 failParent: 0,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
-passChild: 1,
+passChild: 26,
 failChild: 0,
 warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 3,
+passGrandChild: 128,
 failGrandChild: 0,
 warningGrandChild: 0,
 skipGrandChild: 0,
