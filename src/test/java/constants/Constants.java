@@ -13,6 +13,9 @@ public class Constants {
     public static String INCORRECTPASSWORD;
     public static String DashboardPage;
     public static String userPageURL;
+    public static String PROGRAMPAGEURL;
+    public static String BATCHPAGEURL;
+
     // user page
     public static String TableHeaderColumn1;	// ID
     public static String TableHeaderColumn2;	// Name

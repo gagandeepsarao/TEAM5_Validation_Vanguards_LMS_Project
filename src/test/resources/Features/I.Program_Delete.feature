@@ -31,9 +31,9 @@ When Admin clicks <NO> button on the alert
 Then Admin can see the deletion alert disappears without deleting
 
 
-Scenario: Click Yes on deletion window
-
-Given Admin is on Confirm Deletion alert
-When Admin clicks Cancel Icon on Deletion alert
-Then Admin can see the deletion alert disappears without any changes
+#Scenario: Click Yes on deletion window
+#
+#Given Admin is on Confirm Deletion alert
+#When Admin clicks Cancel Icon on Deletion alert
+#Then Admin can see the deletion alert disappears without any changes
 

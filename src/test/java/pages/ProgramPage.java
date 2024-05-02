@@ -97,7 +97,8 @@ public class ProgramPage {
 	public void verifyProgramURL()
 	{
 		String programURL = AppHooks.getInstance().getDriver().getCurrentUrl();
-		Assert.assertEquals(programURL, "https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/");
+		//Assert.assertEquals(programURL, "https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/");
+		Assert.assertEquals(programURL, Constants.PROGRAMPAGEURL);
 		if(programURL.equals("https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/"))
 			Logger_Load.info("Admin is able to see URL in Manage Program" );
 		else

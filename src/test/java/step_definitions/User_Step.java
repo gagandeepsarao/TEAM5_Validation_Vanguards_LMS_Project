@@ -919,5 +919,25 @@ public class User_Step
 	}
 
 	// EDIT SCREEN FEATURE FILE FUNCTIONS END HERE.
+	//ADDED BY ASWINI FOR SORT
+
+	@When("Admin clicks on ID sort icon")
+	public void admin_clicks_on_id_sort_icon() {
+	  
+	}
+
+	@Then("Admin should see User details are sorted by id in ascending order")
+	public void admin_should_see_user_details_are_sorted_by_id_in_ascending_order() {
+	  
+	}
+
+	@Then("Admin should see User details are sorted by id in descending order")
+	public void admin_should_see_user_details_are_sorted_by_id_in_descending_order() {
+	   
+	}
+
+	
+
+
 }
 

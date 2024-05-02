@@ -501,3 +501,180 @@
 [INFO ]2024-05-0122:36:02.703[main]app_hooks.DriverManager1)-Launching chrome
 [INFO ]2024-05-0122:36:07.000[main]utilities.Logger_Load1)-LMS
 [INFO ]2024-05-0122:36:07.000[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0209:55:38.438[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0209:55:44.058[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0209:55:44.059[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0209:56:15.460[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0209:56:20.000[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0209:56:20.000[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0209:56:35.992[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0209:56:40.440[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0209:56:40.440[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0209:56:56.878[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0209:57:01.737[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0209:57:01.737[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0209:57:17.565[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0209:57:21.328[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0209:57:21.329[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0209:57:37.387[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0209:57:41.413[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0209:57:41.413[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0209:57:57.325[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0209:58:01.587[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0209:58:01.587[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0209:58:17.465[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0209:58:21.026[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0209:58:21.026[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0209:58:36.878[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0209:58:40.922[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0209:58:40.922[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0209:58:56.769[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0209:59:01.040[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0209:59:01.040[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0209:59:16.906[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0209:59:20.557[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0209:59:20.557[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0209:59:36.403[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0209:59:40.109[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0209:59:40.109[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0209:59:55.955[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0209:59:59.694[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0209:59:59.694[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0210:00:15.500[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0210:00:19.548[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0210:00:19.548[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0210:00:35.391[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0210:00:38.955[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0210:00:38.955[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0210:00:54.822[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0210:00:58.421[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0210:00:58.421[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0210:01:14.306[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0210:01:18.138[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0210:01:18.138[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0210:01:34.011[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0210:01:37.970[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0210:01:37.970[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0210:01:53.825[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0210:01:57.473[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0210:01:57.473[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0210:02:13.322[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0210:02:17.128[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0210:02:17.128[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0210:02:32.981[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0210:02:41.442[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0210:02:41.442[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0210:02:57.309[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0210:03:00.979[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0210:03:00.979[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0210:03:16.805[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0210:03:20.455[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0210:03:20.455[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0210:03:36.279[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0210:03:40.047[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0210:03:40.047[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0210:03:55.928[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0210:03:59.767[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0210:03:59.767[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0210:04:15.643[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0210:04:19.907[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0210:04:19.907[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0210:04:35.772[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0210:04:39.551[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0210:04:39.551[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0210:04:55.380[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0210:04:59.038[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0210:04:59.038[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0210:05:14.862[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0210:05:18.824[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0210:05:18.824[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0210:26:38.395[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0210:26:43.708[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0210:26:43.709[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0211:49:07.329[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0211:49:12.250[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0211:49:12.251[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0211:49:13.372[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0211:49:13.373[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0211:49:19.845[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0211:49:23.979[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0211:49:23.979[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0211:49:45.724[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0211:49:49.679[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0211:49:49.679[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0211:50:11.475[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0211:50:15.479[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0211:50:15.479[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0211:50:21.785[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0211:50:25.676[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0211:50:25.676[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0211:50:32.362[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0211:50:36.256[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0211:50:36.256[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0211:50:57.768[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0211:51:01.846[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0211:51:01.846[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0211:51:23.375[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0211:51:28.026[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0211:51:28.026[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0211:51:49.433[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0211:51:53.381[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0211:51:53.381[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0211:52:14.897[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0211:52:18.729[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0211:52:18.730[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0211:52:25.007[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0211:52:29.812[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0211:52:29.812[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0211:52:38.596[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0211:52:42.468[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0211:52:42.468[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0211:53:03.807[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0211:53:08.222[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0211:53:08.222[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0211:53:16.454[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0211:53:20.368[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0211:53:20.368[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0211:53:29.717[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0211:53:33.697[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0211:53:33.697[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0211:53:43.250[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0211:53:47.294[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0211:53:47.294[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0211:54:08.673[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0211:54:12.543[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0211:54:12.543[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0211:54:23.042[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0211:54:26.927[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0211:54:26.927[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0211:54:33.530[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0211:54:37.651[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0211:54:37.667[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0211:54:44.061[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0211:54:47.774[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0211:54:47.774[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0211:54:54.106[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0211:54:57.916[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0211:54:57.917[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0211:55:04.383[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0211:55:08.145[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0211:55:08.145[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0211:55:14.561[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0211:55:18.352[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0211:55:18.352[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0211:55:39.836[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0211:55:43.853[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0211:55:43.869[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0211:55:50.442[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0211:55:54.586[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0211:55:54.586[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0211:56:01.570[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0211:56:04.774[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0211:56:08.951[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0211:56:08.951[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0211:56:30.416[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0211:56:34.587[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0211:56:34.587[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0211:56:56.121[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0211:57:00.269[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0211:57:00.269[main]utilities.Logger_Load1)-Title is LMS as expected

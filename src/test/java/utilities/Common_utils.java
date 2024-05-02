@@ -61,6 +61,10 @@ public class Common_utils {
 			    Constants.INCORRECTPASSWORD=properties.getProperty("incorrectpassword");
 			    Constants.DASHBOARDURL=properties.getProperty("DashBoardURL");
 			    Constants.DashboardPage = properties.getProperty("dashboardPage");
+			    
+			    Constants.PROGRAMPAGEURL = properties.getProperty("programPageURL");
+			    Constants.BATCHPAGEURL = properties.getProperty("batchPageURL");
+
 			    Constants.userPageURL = properties.getProperty("userPageURL");
 			    Constants.TableHeaderColumn1 = properties.getProperty("TableHeaderColumn1");
 			    Constants.TableHeaderColumn2 = properties.getProperty("TableHeaderColumn2");

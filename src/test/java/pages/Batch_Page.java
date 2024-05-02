@@ -10,6 +10,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
 import app_hooks.AppHooks;
+import constants.Constants;
 import utilities.Logger_Load;
 
 public class Batch_Page {
@@ -74,8 +75,9 @@ public class Batch_Page {
   public void verifyBatchURL()
 	{
 		String batchURL = AppHooks.getInstance().getDriver().getCurrentUrl();
+		//Assert.assertEquals(batchURL, "https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/batch");
 		Assert.assertEquals(batchURL, "https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/batch");
-		if(batchURL.equals("https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/batch"))
+		if(batchURL.equals(Constants.BATCHPAGEURL))
 			Logger_Load.info("Admin is able to see URL in Manage Batch" );
 		else
 			Logger_Load.error("Admin is not able to see URL in Manage Batch" );

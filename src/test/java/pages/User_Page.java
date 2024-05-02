@@ -182,7 +182,9 @@ public class User_Page
 	By eleAddUserVisaStatus = By.xpath("//div[@class='ng-tns-c101-18 p-dropdown p-component']/div[@role='button']");	
 	
 	By eleAddUserFormCloseButton = By.xpath("//span[@class='p-dialog-header-close-icon ng-tns-c132-6 pi pi-times']");
-	
+	//Added by Aswini
+	By sortIconTable_ID = By.xpath("//p-sorticon[@field='userId']");
+
 	public WebElement eleAddNewUserFName;
 	public WebElement eleAddNewUserMidName;
 	public WebElement eleAddNewUserLastName;
@@ -1365,4 +1367,5 @@ public class User_Page
 		SetAddNewUserFormWithValues(strColName, strEditString, true, true);
 	}	
 	// EDIT SCREEN FEATURE FILE FUNCTIONS END HERE
+
 }
