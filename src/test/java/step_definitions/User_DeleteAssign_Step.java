@@ -5,28 +5,25 @@ import static org.testng.Assert.assertTrue;
 
 import java.util.*;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-
 import app_hooks.AppHooks;
 import constants.Constants;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import pages.UserPage;
+import pages.User_DeleteAssignPage;
 
-public class User {
+public class User_DeleteAssign_Step {
 
 	public String strLoginPage = "";
 	public String strDashboardPage = "";
-	public UserPage objUserPage;
+	public User_DeleteAssignPage objUserPage;
 	public Login objLogin;
 	String id;
 
 	List<String> rowId = new ArrayList<>();
 
 
-	public User() {
+	public User_DeleteAssign_Step() {
 		AppHooks.getInstance().getDriver().get(Constants.URL);
 
 		objLogin = new Login();
@@ -36,61 +33,61 @@ public class User {
 	}
 
 	// UserPage.feature -> Scenario One starts here.
-	@Given("Admin is on dashboard page after Login")
-	public void admin_is_on_dashboard_page_after_login() throws InterruptedException {
+//	@Given("Admin is on dashboard page after Login")
+//	public void admin_is_on_dashboard_page_after_login() throws InterruptedException {
+//
+//		Thread.sleep(2000);
+//
+//		String strDashboardPage = AppHooks.getInstance().getDriver().getCurrentUrl();
+//		// System.out.println("Login :" + strLoginPage );
+//		// System.out.println("Dashboard :" + strDashboardPage );
+//		// System.out.println("Constants: " + Constants.URL);
+//
+//		if (strDashboardPage.equalsIgnoreCase(Constants.URL)) {
+//			System.out.println("landed in Dashboard page");
+//		} else {
+//			System.out.println("failed landing Dashboard page");
+//		}
+//	}
+//
+//	@When("Admin clicks User from navigation bar")
+//	public void admin_clicks_User_from_navigation_bar() throws InterruptedException {
+//		objUserPage.getInstance().clickUserLink();
+//		System.out.println("clicked the USER menu in the navigation bar");
+//	}
 
-		Thread.sleep(2000);
-
-		String strDashboardPage = AppHooks.getInstance().getDriver().getCurrentUrl();
-		// System.out.println("Login :" + strLoginPage );
-		// System.out.println("Dashboard :" + strDashboardPage );
-		// System.out.println("Constants: " + Constants.URL);
-
-		if (strDashboardPage.equalsIgnoreCase(Constants.URL)) {
-			System.out.println("landed in Dashboard page");
-		} else {
-			System.out.println("failed landing Dashboard page");
-		}
-	}
-
-	@When("Admin clicks User from navigation bar")
-	public void admin_clicks_User_from_navigation_bar() throws InterruptedException {
-		objUserPage.getInstance().clickUserLink();
-		System.out.println("clicked the USER menu in the navigation bar");
-	}
-
-	@Then("Admin should see the User in the URL")
-	public void admin_should_see_the_User_in_the_url() {
-		String strGetCurrUrl = AppHooks.getInstance().getDriver().getCurrentUrl();
-		System.out.println("Curr URL: " + strGetCurrUrl);
-
-		if (strGetCurrUrl.contains("user")) {
-			System.out.println("Expected String **USER** found");
-		} else {
-			System.out.println("Expected String **USER** NOT found");
-		}
-	}
+//	@Then("Admin should see the User in the URL")
+//	public void admin_should_see_the_User_in_the_url() {
+//		String strGetCurrUrl = AppHooks.getInstance().getDriver().getCurrentUrl();
+//		System.out.println("Curr URL: " + strGetCurrUrl);
+//
+//		if (strGetCurrUrl.contains("user")) {
+//			System.out.println("Expected String **USER** found");
+//		} else {
+//			System.out.println("Expected String **USER** NOT found");
+//		}
+//	}
 	// UserPage.feature -> Scenario One ends here
 
 	// UserPage.feature -> Scenario Two starts here
-	@Then("Admin should see a heading with text Manage user on the page")
-	public void admin_should_see_a_heading_with_text_Manage_user_in_the_page() {
-		String strExpectedString = "Manage User";
-		String strGetElementText = "";
-
-		By elePageTitleCard = By.xpath("//div[1][@class='box']");
-		strGetElementText = AppHooks.getInstance().getDriver().findElement(elePageTitleCard).getText();
-
-		if (strExpectedString.contains(strGetElementText.trim())) {
-			System.out.println("Expected String **MANAGE USER** found");
-		} else {
-			System.out.println("Expected String **MANAGE USER** NOT found");
-		}
-	}
+//	@Then("Admin should see a heading with text Manage user on the page")
+//	public void admin_should_see_a_heading_with_text_Manage_user_in_the_page() {
+//		String strExpectedString = "Manage User";
+//		String strGetElementText = "";
+//
+//		By elePageTitleCard = By.xpath("//div[1][@class='box']");
+//		strGetElementText = AppHooks.getInstance().getDriver().findElement(elePageTitleCard).getText();
+//
+//		if (strExpectedString.contains(strGetElementText.trim())) {
+//			System.out.println("Expected String **MANAGE USER** found");
+//		} else {
+//			System.out.println("Expected String **MANAGE USER** NOT found");
+//		}
+//	}
 	// UserPage.feature -> Scenario Two ends here
 
 	// UserPage.feature -> Scenario Three starts here
-	@Then("Admin should see the text as Showing x to y of z entries along with Pagination icon below the table")
+	//@Then("Admin should see the text as Showing x to y of z entries along with Pagination icon below the table")
 //	public void Admin_should_see_the_text_as_Showing_x_to_y_of_z_entries_along_with_Pagination_icon_below_the_table() throws InterruptedException
 //	{
 //		String strGetElementText = "";
@@ -185,11 +182,11 @@ public class User {
 	// UserPage.feature -> Scenario Three ends here
 
 	// UserPage.feature -> Scenario Four starts here
-	@Then("Admin Should see the data table with column names Id, Name, location, Phone Number, EditOrDelete")
-//	public void Admin_Should_see_the_data_table_with_column_names_Id_Name_location_PhoneNumber_EditOrDelete() throws InterruptedException 
+	//@Then("Admin Should see the data table with column names Id, Name, location, Phone Number, EditOrDelete")
+//	public void Admin_Should_see_the_data_table_with_column_names_Id_Name_location_PhoneNumber_EditOrDelete() throws InterruptedException
 //	{
 //		Thread.sleep(1000);
-//		
+//
 //		boolean bIDHeaderAvl = false;
 //		boolean bNameHeaderAvl = false;
 //		boolean bLocationHeaderAvl = false;
@@ -204,7 +201,7 @@ public class User {
 
 //			switch(iLoop)
 //			{
-//				case 0:					
+//				case 0:
 //					if(strHeaderName.equalsIgnoreCase(Constants.TableHeaderColumn1.trim()))
 //						bIDHeaderAvl = true;
 //					break;
@@ -224,7 +221,7 @@ public class User {
 //						System.out.println("Default String -> User Page Table Header!!" );
 //			}
 //		}
-//		
+//
 //		if(Constants.TableHeaderColumn5.equalsIgnoreCase(objUserPage.getInstance().getTableColumnEditDelete().trim()))
 //		{
 //			bEditDelHeaderAvl = true;
@@ -251,48 +248,48 @@ public class User {
 	// UserPage.feature -> Scenario Four ends here
 
 	// UserPage.feature -> Scenario Five starts here
-	@Then("Admin should see a Delete button on the top left hand side as Disabled")
-	public void Admin_should_see_a_Delete_button_on_the_top_left_hand_side_as_Disabled() {
-		boolean bIsDelAllBtnEnabled;
-
-		bIsDelAllBtnEnabled = objUserPage.getInstance().IsUserPageDeleteAllButtonEnabled();
-
-		if (!bIsDelAllBtnEnabled)
-			System.out.println("User Page Delete All Button is disabled !!");
-		else
-			System.out.println("User Page Delete All Button is NOT disabled !!");
-	}
+//	@Then("Admin should see a Delete button on the top left hand side as Disabled")
+//	public void Admin_should_see_a_Delete_button_on_the_top_left_hand_side_as_Disabled() {
+//		boolean bIsDelAllBtnEnabled;
+//
+//		bIsDelAllBtnEnabled = objUserPage.getInstance().IsUserPageDeleteAllButtonEnabled();
+//
+//		if (!bIsDelAllBtnEnabled)
+//			System.out.println("User Page Delete All Button is disabled !!");
+//		else
+//			System.out.println("User Page Delete All Button is NOT disabled !!");
+//	}
 	// UserPage.feature -> Scenario Five ends here
 
 	// UserPage.feature -> Scenario Six starts here
-	@Then("Admin should be able to see the Add New User button above the data table")
-	public void Admin_should_be_able_to_see_the_Add_New_User_button_above_the_data_table() throws InterruptedException {
-		boolean bIsAddNewUserBtnVisible;
-
-		Thread.sleep(1000);
-		bIsAddNewUserBtnVisible = objUserPage.getInstance().IsAddNewUserButtonVisible();
-
-		if (bIsAddNewUserBtnVisible)
-			System.out.println("User Page Add New User Button is Visible !!");
-		else
-			System.out.println("User Page Add New User Button is NOT Visible !!");
-	}
+//	@Then("Admin should be able to see the Add New User button above the data table")
+//	public void Admin_should_be_able_to_see_the_Add_New_User_button_above_the_data_table() throws InterruptedException {
+//		boolean bIsAddNewUserBtnVisible;
+//
+//		Thread.sleep(1000);
+//		bIsAddNewUserBtnVisible = objUserPage.getInstance().IsAddNewUserButtonVisible();
+//
+//		if (bIsAddNewUserBtnVisible)
+//			System.out.println("User Page Add New User Button is Visible !!");
+//		else
+//			System.out.println("User Page Add New User Button is NOT Visible !!");
+//	}
 	// UserPage.feature -> Scenario Six ends here
 
 
-	@Given("Admin is on Manage User Page")
-	public void admin_is_on_manage_user_page() throws InterruptedException {
+	@Given("Admin is on the Manage User Page")
+	public void admin_is_on_the_manage_user_page() throws InterruptedException {
 		System.out.println("Redirected to user page");
 		objUserPage.getInstance().clickUserLink();
 	}
 
-	@When("Admin clicks the delete icon")
+	@When("Admin clicks the delete icon on user page")
 	public void admin_clicks_the_delete_icon() {
 		objUserPage.getInstance().clickDeleteBtn();
 	}
 
-	@Then("Admin should see a alert open with heading {string} along with  <YES> and <NO> button for deletion")
-	public void admin_should_see_a_alert_open_with_heading_along_with_yes_and_no_button_for_deletion(String string) throws InterruptedException {
+	@Then("Admin should see a alert open with heading {string} with  <YES> and <NO> button for deletion")
+	public void admin_should_see_a_alert_open_with_heading_with_yes_and_no_button_for_deletion(String string) throws InterruptedException {
 		objUserPage.getInstance().clickUserLink();
 		objUserPage.getInstance().clickDeleteBtn();
 		objUserPage.getInstance().switchToAlert();
@@ -318,8 +315,8 @@ public class User {
 		System.out.println("no button clicked");
 	}
 
-	@Then("Admin can see the deletion alert disappears without deleting")
-	public void admin_can_see_the_deletion_alert_disappears_without_deleting() {
+	@Then("Admin can see deletion alert disappears without deleting")
+	public void admin_can_see_deletion_alert_disappears_without_deleting() {
 		boolean present = objUserPage.getInstance().alertBoxNotPresent();
 		assertTrue(present);
 	}
@@ -331,8 +328,8 @@ public class User {
 		System.out.println("close button clicked");
 	}
 
-	@Then("Admin can see the deletion alert disappears without any changes")
-	public void admin_can_see_the_deletion_alert_disappears_without_any_changes() {
+	@Then("Admin can see deletion alert disappears without any changes")
+	public void admin_can_see_deletion_alert_disappears_without_any_changes() {
 		boolean present = objUserPage.getInstance().alertBoxNotPresent();
 		assertTrue(present);
 	}
@@ -349,8 +346,8 @@ public class User {
 		assertTrue(enabled,"Delete button is enabled");
 	}
 
-	@Given("Admin is on Confirm Deletion alert")
-	public void admin_is_on_confirm_deletion_alert() throws InterruptedException {
+	@Given("Admin is on the Confirm Deletion alert")
+	public void admin_is_on_the_confirm_deletion_alert() throws InterruptedException {
 		objUserPage.getInstance().clickUserLink();
 		System.out.println("User link is clicked");
 		objUserPage.getInstance().clickCheckBox();
@@ -379,6 +376,16 @@ public class User {
 		assertTrue(newId.equals(id),"User with" + id+ "has not been deleted");
 	}
 
+	//	@Given("Admin is on Confirm Deletion alert after selecting multiple checkboxes")
+//	public void admin_is_on_confirm_deletion_alert_after_selecting_multiple_checkboxes() throws InterruptedException {
+//		objUserPage.getInstance().clickUserLink();
+//		System.out.println("User link is clicked");
+//		objUserPage.getInstance().clickMultipleCheckBox();
+//		System.out.println("Checkboxes is clicked");
+//		rowId = objUserPage.getInstance().getAllSelectedIds();
+//		System.out.println("ID IS " +rowId);
+//
+//	}
 	@Given("Admin is on Confirm Deletion alert after selecting multiple checkboxes")
 	public void admin_is_on_confirm_deletion_alert_after_selecting_multiple_checkboxes() throws InterruptedException {
 		objUserPage.getInstance().clickUserLink();
@@ -401,9 +408,9 @@ public class User {
 	}
 	@Then("Admin should land on Manage User page and can see the selected users are deleted from the data table")
 	public void admin_should_land_on_manage_user_page_and_can_see_the_selected_users_are_deleted_from_the_data_table() {
-//		List<String> newRowId = objUserPage.getInstance().getAllSelectedIds();
-//		System.out.println("new rowid" +newRowId);
-//		assertFalse(newRowId.equals(rowId));
+		List<String> newRowId = objUserPage.getInstance().getAllSelectedIds();
+		System.out.println("new rowid" +newRowId);
+		assertFalse(newRowId.equals(rowId));
 	}
 
 	@Then("Admin should land on Manage User page and can see the selected users are not deleted from the data table")
@@ -412,8 +419,8 @@ public class User {
 		System.out.println("new rowid" +newRowId);
 		assertTrue(newRowId.equals(rowId));
 	}
-	@When("Admin clicks {string} button")
-	public void admin_clicks_button(String string) {
+	@When("Admin clicks the {string} button")
+	public void admin_clicks_the_button(String string) {
 		objUserPage.getInstance().clickAssignStudent();
 		System.out.println("Assign student button is clicked");
 	}
@@ -447,8 +454,8 @@ public class User {
 	public void admin_clicks_button_with_entering_any_data(String string) throws InterruptedException {
 		objUserPage.getInstance().clicksaveAssignStudentButton();
 	}
-	@Then("Admin gets a Error message alert")
-	public void admin_gets_a_error_message_alert() {
+	@Then("Admin gets a Error message alert on page")
+	public void admin_gets_a_error_message_alert_on_page() {
 		String error = objUserPage.getInstance().getEmailError();
 		assertTrue(error.contains("required"));
 	}
@@ -509,8 +516,8 @@ public class User {
 
 	}
 
-	@When("Enter all the required fields with valid values and click Save button")
-	public void enter_all_the_required_fields_with_valid_values_and_click_save_button() throws InterruptedException{
+	@When("Enter all required fields with valid values and click Save button")
+	public void enter_all_required_fields_with_valid_values_and_click_save_button() throws InterruptedException{
 		objUserPage.getInstance().enterStudentEmail();
 		objUserPage.getInstance().enterProgramName();
 		objUserPage.getInstance().enterBatchName();
@@ -569,7 +576,7 @@ public class User {
 
 	@Then("Admin gets a Staff Error message alert as {string}")
 	public void admin_gets_a_staff_error_message_alert_as(String error) {
-				String errorMessage = "";
+		String errorMessage = "";
 		if(error.contains("Email")) {
 			errorMessage = objUserPage.getInstance().getUserAssignError();
 		} else if (error.contains("Program Name")) {
@@ -579,9 +586,9 @@ public class User {
 		}else if(error.contains("Status")){
 			errorMessage = objUserPage.getInstance().getUserStatusError();
 		}else if(error.contains("Skill")){
-		errorMessage = objUserPage.getInstance().getUserSkillError();
+			errorMessage = objUserPage.getInstance().getUserSkillError();
 
-	}
+		}
 		assertTrue(errorMessage.trim().equals(error.trim()));
 	}
 
@@ -609,8 +616,8 @@ public class User {
 		assertFalse(objUserPage.getInstance().staffAssignPopupPresent());
 	}
 
-	@When("Admin clicks Cancel button")
-	public void admin_clicks_cancel_button() {
+	@When("Admin clicks the Cancel button")
+	public void admin_clicks_the_cancel_button() {
 		objUserPage.getInstance().clickCancelAssignStaff();
 	}
 	@Then("Admin can see the Assign Staff popup disappears without assigning")

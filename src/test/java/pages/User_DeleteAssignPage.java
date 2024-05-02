@@ -1,45 +1,38 @@
 package pages;
 
-import java.sql.SQLOutput;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import io.cucumber.java.eo.Se;
-import io.cucumber.java.sl.In;
 import org.openqa.selenium.*;
 
 import app_hooks.AppHooks;
-import constants.Constants;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import java.time.Duration;
-import java.util.concurrent.TimeUnit;
 
-public class UserPage 
+public class User_DeleteAssignPage
 {
-	public static UserPage UserPageObjects;
-	
-	public UserPage() {};
+	public static User_DeleteAssignPage UserPageObjects;
 
-	public static UserPage getInstance() 
+	public User_DeleteAssignPage() {};
+
+	public static User_DeleteAssignPage getInstance()
 	{
-		if(UserPageObjects == null) 
+		if(UserPageObjects == null)
 		{
-			UserPageObjects = new UserPage();
+			UserPageObjects = new User_DeleteAssignPage();
 		}
 		return UserPageObjects;
 	}
-	
+
 	public int intUserPageTableHeaderColumnSize = 0;
-	
+
 	public String strTableColumnHeaderNames = "";
 	public String strTableColumnHeaderEditDel = "";
-	
+
 	public boolean bIsUserPageDelAllBtnEnabled = true;
-	
+
 	public boolean bIsAddNewUserPlusBtnVisible = true;
 	public boolean bIsAddNewUserBtnVisible = true;
 	By lnkUser = By.xpath("//button[@id = 'user']");
@@ -56,7 +49,7 @@ public class UserPage
 	By noButton = By.xpath("//span[text()='No']");
 	By closeButton =  By.xpath("//div[@class='p-dialog-header-icons ng-tns-c133-9']");
 	By checkBox = By.xpath("//tbody/tr[1]/td[1]/p-tablecheckbox[1]/div[1]/div[2]");
-	By checkMultipleBoxes = By.xpath("//tbody/tr");
+	By checkMultipleBoxes = By.xpath("//tbody/tr/td/p-tablecheckbox");
 	By commonDeleteButton = By.xpath("//button[@class='p-button-danger p-button p-component p-button-icon-only']");
 	By firstRowData = By.xpath("//tbody/tr[1]/td[2]");
 	By multipleIds = By.xpath("//tbody/tr/td[2]");
@@ -67,7 +60,7 @@ public class UserPage
 	By closeAssignStudent = By.xpath("//div[@class='p-dialog-header-icons ng-tns-c132-8']");
 	By studentRole  = By.xpath("//input[@name='roleId']");
 	By studentEmail = By.xpath("//span[text()='Select Email ID']");
-//	By programName = By.xpath("//input[@name='programName']");
+	//	By programName = By.xpath("//input[@name='programName']");
 	By programName = By.xpath("//span[text()='Select a Program name ']");
 	By batchName = By.xpath("//span[text()='Select Batch']");
 	By studentStatus = By.xpath("//label[@for='online']");
@@ -114,30 +107,30 @@ public class UserPage
 	public void clickDeleteBtn() {
 		AppHooks.getInstance().getDriver().findElement(deletButton).click();
 	}
-	
+
 	public void switchToAlert() {
 		WebElement element = AppHooks.getInstance().getDriver().findElement(alertBox);
-	    ((JavascriptExecutor) AppHooks.getInstance().getDriver()).executeScript("arguments[0].click()", element);
+		((JavascriptExecutor) AppHooks.getInstance().getDriver()).executeScript("arguments[0].click()", element);
 		System.out.print("Switched to Alert successfulyy..............");
-		}
-	
+	}
+
 	public String checkHeading() {
 		String heading = AppHooks.getInstance().getDriver().findElement(confirmHeader).getText();
 		return heading;
 	}
-	
+
 	public boolean checkYesButtonPresent() {
 		return AppHooks.getInstance().getDriver().findElement(yesButton).isDisplayed();
 	}
-	
+
 	public boolean checkNoButtonPresent() {
 		return AppHooks.getInstance().getDriver().findElement(noButton).isDisplayed();
 	}
-	
+
 	public void clickYesButton() {
 		AppHooks.getInstance().getDriver().findElement(yesButton).click();
 	}
-	
+
 	public void clickNoButton() {
 		AppHooks.getInstance().getDriver().findElement(noButton).click();
 	}
@@ -160,18 +153,27 @@ public class UserPage
 
 
 
+	//	public void clickMultipleCheckBox(){
+//		List<WebElement> checkBoxes = AppHooks.getInstance().getDriver().findElements(checkMultipleBoxes);
+//		for (WebElement checkbox: checkBoxes)
+//			  {
+//				  checkbox.click();
+//			  }
+//		System.out.println("Clicked multiple checkboxes");
+//
+//	}
 	public void clickMultipleCheckBox(String[] filteredId){
 		List<WebElement> rows = AppHooks.getInstance().getDriver().findElements(checkMultipleBoxes);
 		for (WebElement row: rows)
-			  {
-				  String id = row.findElement(By.xpath("td[2]")).getText();
-				  if(Arrays.asList(filteredId).contains(id)){
-					  System.out.println("Clicking id: " + id);
-					  row.findElement(By.xpath("td[1]")).click();
-				  }
+		{
+			String id = row.findElement(By.xpath("td[2]")).getText();
+			if(Arrays.asList(filteredId).contains(id)){
+				System.out.println("Clicking id: " + id);
+				row.findElement(By.xpath("td[1]")).click();
+			}
 
-				  //checkbox.click();
-			  }
+			//checkbox.click();
+		}
 		System.out.println("Clicked checkboxes");
 
 	}
@@ -190,37 +192,6 @@ public class UserPage
 		System.out.println("Value of id " +id);
 		return id;
 	}
-
-	public String[] removeRestrictedId(String[] ids){
-		String[] restrictedIds = {
-				"U1", "U2", "U3", "U4", "U5", "U6", "U7", "U8", "U9", "U10",
-				"U11", "U12", "U13", "U14", "U15", "U16", "U17", "U18", "U19", "U20",
-				"U21", "U22", "U23", "U24", "U25", "U26", "U27", "U28", "U29", "U30",
-				"U31", "U32", "U33", "U34", "U35", "U36", "U37", "U38", "U39", "U40",
-				"U41", "U42", "U43", "U44", "U45", "U46", "U47", "U48", "U49", "U50",
-				"U51", "U52", "U53", "U54", "U55", "U56", "U57", "U58", "U59", "U60",
-				"U61", "U62", "U63"
-		};
-
-		List<String> filteredIdsList = new ArrayList<>();
-
-		for (String id : ids) {
-			boolean isRestricted = false;
-			for (String restrictedId : restrictedIds) {
-				if (id.equals(restrictedId)) {
-					isRestricted = true;
-					break;
-				}
-			}
-			if (!isRestricted) {
-				filteredIdsList.add(id);
-			}
-		}
-
-		return filteredIdsList.toArray(new String[0]);
-	}
-
-
 
 	public List getAllSelectedIds(){
 		List <WebElement> rowIds  =  AppHooks.getInstance().getDriver().findElements(multipleIds);
@@ -347,8 +318,8 @@ public class UserPage
 	public void enterStudentEmail() throws InterruptedException {
 		WebElement emailDropDown = AppHooks.getInstance().getDriver().findElement(studentEmail);
 		emailDropDown.click();
-	//	WebDriverWait wait = new WebDriverWait(AppHooks.getInstance().getDriver(), Duration.ofSeconds(10)); // 10 seconds timeout
-	//	WebElement firstOption = wait.until(ExpectedConditions.visibilityOfElementLocated(firstEmail));
+		//	WebDriverWait wait = new WebDriverWait(AppHooks.getInstance().getDriver(), Duration.ofSeconds(10)); // 10 seconds timeout
+		//	WebElement firstOption = wait.until(ExpectedConditions.visibilityOfElementLocated(firstEmail));
 		AppHooks.getInstance().getDriver().findElement(emailSearch).sendKeys("qram@gmail.com");
 		WebElement email = AppHooks.getInstance().getDriver().findElement(firstEmail);
 		email.click();
@@ -431,10 +402,10 @@ public class UserPage
 	public String getUserSkillError(){
 		String error;
 		try {
-			 error = AppHooks.getInstance().getDriver().findElement(getUserSkillError).getText();
+			error = AppHooks.getInstance().getDriver().findElement(getUserSkillError).getText();
 		}catch (NoSuchElementException e) {
-            return "";
-        }
+			return "";
+		}
 		return error;
 	}
 
@@ -490,55 +461,83 @@ public class UserPage
 	public int getTableHeaderCount()
 	{
 		List<WebElement> eleTableHeaderList = AppHooks.getInstance().getDriver().findElements(eleTableHeader);
-		
+
 		int intUserPageTableHeaderColumnSize = eleTableHeaderList.size();
-		
+
 		return intUserPageTableHeaderColumnSize;
 	}
 
 	public String getTableColumnHeaderNames(int intIndexOf)
 	{
 		List<WebElement> eleTableHeaderList = AppHooks.getInstance().getDriver().findElements(eleTableHeader);
-		
+
 		strTableColumnHeaderNames = eleTableHeaderList.get(intIndexOf).getText();
-		
-		return strTableColumnHeaderNames;		
+
+		return strTableColumnHeaderNames;
 	}
-	
+
 	public String getTableColumnEditDelete()
 	{
 		strTableColumnHeaderEditDel = AppHooks.getInstance().getDriver().findElement(eleTableHeaderEditDel).getText();
 		return strTableColumnHeaderEditDel;
 	}
-	
-	
-	
+
+
+
 	public boolean IsUserPageDeleteAllButtonEnabled()
 	{
 		bIsUserPageDelAllBtnEnabled = AppHooks.getInstance().getDriver().findElement(eleBtnDeleteAll).isEnabled();
 		return bIsUserPageDelAllBtnEnabled;
 	}
-	
+
 	public boolean IsAddNewUserButtonVisible()
 	{
 		boolean bIsNewUserAddPlusBtnVisible;
 		boolean bIsNewUserAddBtnVisible;
-		
+
 		bIsNewUserAddPlusBtnVisible = AppHooks.getInstance().getDriver().findElement(eleAddNewUserPlusButton).isDisplayed();
 		bIsNewUserAddBtnVisible = AppHooks.getInstance().getDriver().findElement(eleAddNewUserButton).isDisplayed();
-		
+
 		if(bIsNewUserAddPlusBtnVisible && bIsNewUserAddBtnVisible)
 			bIsAddNewUserBtnVisible = true;
 		else
 			bIsAddNewUserBtnVisible = false;
-		
+
 		return bIsAddNewUserBtnVisible;
 	}
-	
+
 	public String getAlertMessage() {
 		WebDriverWait wait = new WebDriverWait(AppHooks.getInstance().getDriver(), Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.presenceOfElementLocated(deleteMessage));
 		String message =  AppHooks.getInstance().getDriver().findElement(deleteMessage).getText();
 		return message;
+	}
+	public String[] removeRestrictedId(String[] ids){
+		String[] restrictedIds = {
+				"U1", "U2", "U3", "U4", "U5", "U6", "U7", "U8", "U9", "U10",
+				"U11", "U12", "U13", "U14", "U15", "U16", "U17", "U18", "U19", "U20",
+				"U21", "U22", "U23", "U24", "U25", "U26", "U27", "U28", "U29", "U30",
+				"U31", "U32", "U33", "U34", "U35", "U36", "U37", "U38", "U39", "U40",
+				"U41", "U42", "U43", "U44", "U45", "U46", "U47", "U48", "U49", "U50",
+				"U51", "U52", "U53", "U54", "U55", "U56", "U57", "U58", "U59", "U60",
+				"U61", "U62", "U63"
+		};
+
+		List<String> filteredIdsList = new ArrayList<>();
+
+		for (String id : ids) {
+			boolean isRestricted = false;
+			for (String restrictedId : restrictedIds) {
+				if (id.equals(restrictedId)) {
+					isRestricted = true;
+					break;
+				}
+			}
+			if (!isRestricted) {
+				filteredIdsList.add(id);
+			}
+		}
+
+		return filteredIdsList.toArray(new String[0]);
 	}
 }
