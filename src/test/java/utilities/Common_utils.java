@@ -55,6 +55,22 @@ public class Common_utils {
 				//Constants.LOGINPAGE= properties.getProperty("LOGINPAGE_URL");
 				Constants.USER= properties.getProperty("user");
 			    Constants.PASSWORD= properties.getProperty("password");
+			    Constants.EXCELPATH= properties.getProperty("excelpath");
+			    Constants.INVALIDURL=properties.getProperty("Invalidurl");
+			    Constants.INCORRECTUSERNAME=properties.getProperty("incorrectusername");
+			    Constants.INCORRECTPASSWORD=properties.getProperty("incorrectpassword");
+			    Constants.DASHBOARDURL=properties.getProperty("DashBoardURL");
+			    Constants.DashboardPage = properties.getProperty("dashboardPage");
+			    
+			    Constants.PROGRAMPAGEURL = properties.getProperty("programPageURL");
+			    Constants.BATCHPAGEURL = properties.getProperty("batchPageURL");
+
+			    Constants.userPageURL = properties.getProperty("userPageURL");
+			    Constants.TableHeaderColumn1 = properties.getProperty("TableHeaderColumn1");
+			    Constants.TableHeaderColumn2 = properties.getProperty("TableHeaderColumn2");
+			    Constants.TableHeaderColumn3 = properties.getProperty("TableHeaderColumn3");
+			    Constants.TableHeaderColumn4 = properties.getProperty("TableHeaderColumn4");
+			    Constants.TableHeaderColumn5 = properties.getProperty("TableHeaderColumn5");
 
 				
 			}
@@ -92,20 +108,4 @@ public class Common_utils {
 
 	}
 
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
