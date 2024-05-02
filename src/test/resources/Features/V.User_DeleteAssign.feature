@@ -77,10 +77,10 @@ Scenario: Validate multiple program deletion by selecting Single checkbox
       Then Admin should land on Manage User page and can see the selected user is not deleted from the data table
 
 #Delete Scenario dont run uncommented
-#Scenario: Validate multiple program deletion by selecting multiple check boxes
-      #Given Admin is on Confirm Deletion alert after selecting multiple checkboxes
-      #When  Admin clicks yes option
-      #Then Admin should land on Manage User page and can see the selected users are deleted from the data table
+Scenario: Validate multiple program deletion by selecting multiple check boxes
+      Given Admin is on Confirm Deletion alert after selecting multiple checkboxes
+      When  Admin clicks yes option
+      Then Admin should land on Manage User page and can see the selected users are deleted from the data table
 
 Scenario: Validate multiple program deletion by selecting multiple check boxes
       Given Admin is on Confirm Deletion alert after selecting multiple checkboxes

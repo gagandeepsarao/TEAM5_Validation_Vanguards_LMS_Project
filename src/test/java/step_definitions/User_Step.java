@@ -846,8 +846,13 @@ public class User_Step
 	@When("Admin clicks on the edit icon")
 	public void admin_clicks_on_the_edit_icon() throws InterruptedException 
 	{
-	    objUserPage.getInstance().RowEditIconClick();
-	}
+		if(objUserPage.getInstance().getMinDataRowCount()>0)
+		{
+			if(objUserPage.getInstance().CheckIfDataTableGotEditIconEnabled(1))
+			{
+				objUserPage.getInstance().RowEditIconClick();
+			}
+		}	}
 
 	@Then("A new pop up with User details appears")
 	public void a_new_pop_up_with_user_details_appears() 
@@ -917,23 +922,35 @@ public class User_Step
 	{
 	    
 	}
+	@Then("Admin gets success message and see the updated values in data table")
+	public void admin_gets_success_and_see_the_updated_values_in_data_table(String string, io.cucumber.datatable.DataTable dataTable) 
+	{
+	    if(objUserPage.getInstance().bSaveSuccess)
+	    	System.out.println("User updated successfully !");
+	    else
+	    	System.out.println("User not updated successfully !");
+	}
+
+
 
 	// EDIT SCREEN FEATURE FILE FUNCTIONS END HERE.
 	//ADDED BY ASWINI FOR SORT
 
 	@When("Admin clicks on ID sort icon")
 	public void admin_clicks_on_id_sort_icon() {
-	  
+		objUserPage.getInstance().ValidateSortIcon_userID();
 	}
 
 	@Then("Admin should see User details are sorted by id in ascending order")
 	public void admin_should_see_user_details_are_sorted_by_id_in_ascending_order() {
-	  
+		objUserPage.getInstance().ValidateSortIcon_userID_Ascending();
+
 	}
 
 	@Then("Admin should see User details are sorted by id in descending order")
 	public void admin_should_see_user_details_are_sorted_by_id_in_descending_order() {
-	   
+		objUserPage.getInstance().ValidateSortIcon_userID_Descending();
+
 	}
 
 	

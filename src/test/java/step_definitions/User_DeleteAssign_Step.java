@@ -379,14 +379,34 @@ public class User_DeleteAssign_Step {
 		assertTrue(newId.equals(id),"User with" + id+ "has not been deleted");
 	}
 
+//	@Given("Admin is on Confirm Deletion alert after selecting multiple checkboxes")
+//	public void admin_is_on_confirm_deletion_alert_after_selecting_multiple_checkboxes() throws InterruptedException {
+//		objUserPage.getInstance().clickUserLink();
+//		System.out.println("User link is clicked");
+//		objUserPage.getInstance().clickMultipleCheckBox();
+//		System.out.println("Checkboxes is clicked");
+//		rowId = objUserPage.getInstance().getAllSelectedIds();
+//		System.out.println("ID IS " +rowId);
+//
+//	}
 	@Given("Admin is on Confirm Deletion alert after selecting multiple checkboxes")
 	public void admin_is_on_confirm_deletion_alert_after_selecting_multiple_checkboxes() throws InterruptedException {
 		objUserPage.getInstance().clickUserLink();
 		System.out.println("User link is clicked");
-		objUserPage.getInstance().clickMultipleCheckBox();
-		System.out.println("Checkboxes is clicked");
 		rowId = objUserPage.getInstance().getAllSelectedIds();
 		System.out.println("ID IS " +rowId);
+		String[] filteredId = objUserPage.getInstance().removeRestrictedId(rowId.toArray(new String[0]));
+		for (String element : filteredId) {
+			System.out.println(element);
+		}
+		objUserPage.getInstance().clickMultipleCheckBox(filteredId);
+
+		System.out.println("Checkboxes is clicked");
+		Thread.sleep(2000);
+		objUserPage.getInstance().clickCommonDeleteButton();
+		System.out.println("Delete Common button is clicked");
+		objUserPage.getInstance().switchToAlert();
+
 
 	}
 	@Then("Admin should land on Manage User page and can see the selected users are deleted from the data table")

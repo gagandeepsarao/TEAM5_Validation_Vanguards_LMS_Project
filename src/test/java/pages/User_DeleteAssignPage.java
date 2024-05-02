@@ -3,6 +3,7 @@ package pages;
 import java.sql.SQLOutput;
 import java.time.Duration;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import io.cucumber.java.eo.Se;
@@ -159,13 +160,28 @@ public class User_DeleteAssignPage
 
 
 
-	public void clickMultipleCheckBox(){
-		List<WebElement> checkBoxes = AppHooks.getInstance().getDriver().findElements(checkMultipleBoxes);
-		for (WebElement checkbox: checkBoxes)
-			  {
-				  checkbox.click();
-			  }
-		System.out.println("Clicked multiple checkboxes");
+//	public void clickMultipleCheckBox(){
+//		List<WebElement> checkBoxes = AppHooks.getInstance().getDriver().findElements(checkMultipleBoxes);
+//		for (WebElement checkbox: checkBoxes)
+//			  {
+//				  checkbox.click();
+//			  }
+//		System.out.println("Clicked multiple checkboxes");
+//
+//	}
+	public void clickMultipleCheckBox(String[] filteredId){
+	    List<WebElement> rows = AppHooks.getInstance().getDriver().findElements(checkMultipleBoxes);
+	    for (WebElement row: rows)
+	         {
+	            String id = row.findElement(By.xpath("td[2]")).getText();
+	            if(Arrays.asList(filteredId).contains(id)){
+	               System.out.println("Clicking id: " + id);
+	               row.findElement(By.xpath("td[1]")).click();
+	            }
+
+	            //checkbox.click();
+	         }
+	    System.out.println("Clicked checkboxes");
 
 	}
 
@@ -502,5 +518,33 @@ public class User_DeleteAssignPage
 		wait.until(ExpectedConditions.presenceOfElementLocated(deleteMessage));
 		String message =  AppHooks.getInstance().getDriver().findElement(deleteMessage).getText();
 		return message;
+	}
+	public String[] removeRestrictedId(String[] ids){
+		String[] restrictedIds = {
+				"U1", "U2", "U3", "U4", "U5", "U6", "U7", "U8", "U9", "U10",
+				"U11", "U12", "U13", "U14", "U15", "U16", "U17", "U18", "U19", "U20",
+				"U21", "U22", "U23", "U24", "U25", "U26", "U27", "U28", "U29", "U30",
+				"U31", "U32", "U33", "U34", "U35", "U36", "U37", "U38", "U39", "U40",
+				"U41", "U42", "U43", "U44", "U45", "U46", "U47", "U48", "U49", "U50",
+				"U51", "U52", "U53", "U54", "U55", "U56", "U57", "U58", "U59", "U60",
+				"U61", "U62", "U63"
+		};
+
+		List<String> filteredIdsList = new ArrayList<>();
+
+		for (String id : ids) {
+			boolean isRestricted = false;
+			for (String restrictedId : restrictedIds) {
+				if (id.equals(restrictedId)) {
+					isRestricted = true;
+					break;
+				}
+			}
+			if (!isRestricted) {
+				filteredIdsList.add(id);
+			}
+		}
+
+		return filteredIdsList.toArray(new String[0]);
 	}
 }

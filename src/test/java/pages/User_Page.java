@@ -19,6 +19,7 @@ public class User_Page
 	{		
 //		myDriver = AppHooks.getInstance().getDriver();
 	}
+	Common commonFunctions = new Common(); //Added by Aswini
 
 	public static User_Page getInstance() 
 	{
@@ -183,7 +184,13 @@ public class User_Page
 	
 	By eleAddUserFormCloseButton = By.xpath("//span[@class='p-dialog-header-close-icon ng-tns-c132-6 pi pi-times']");
 	//Added by Aswini
-	By sortIconTable_ID = By.xpath("//p-sorticon[@field='userId']");
+	//By sortIconTable_ID = By.xpath("//p-sorticon[@field='userId']");
+	By sortIconTable_ID = By.xpath("//th[@psortablecolumn='userId']");
+	By sortIconTable_name = By.xpath("//th[@psortablecolumn='userFirstName']");
+
+	
+	
+
 
 	public WebElement eleAddNewUserFName;
 	public WebElement eleAddNewUserMidName;
@@ -298,6 +305,7 @@ public class User_Page
 		
 		return intMinDataRowCountVisible;
 	}
+	
 	
 	public boolean CheckIfDataTableGotCheckBox(Integer intRowNum) throws InterruptedException
 	{
@@ -1293,30 +1301,28 @@ public class User_Page
 	
 	public void RowEditIconClick() throws InterruptedException
 	{
-		if(IsRowEditIconVisible())
+		strUserFirstName = AppHooks.getInstance().getDriver().findElement(eleUserFirstNameDataTable).getText();
+		Thread.sleep(2000);
+		System.out.println("First Name: " + strUserFirstName);
+		
+		eleRowEditIcon = AppHooks.getInstance().getDriver().findElement(eleDataRowwiseEditIcon);
+		eleRowEditIcon.click();
+		
+		WebElement eleUserDtlsForm = AppHooks.getInstance().getDriver().findElement(eleAddNewUserForm);
+		
+		if(eleUserDtlsForm.isDisplayed())
 		{
-			eleRowEditIcon.click();
-			
-			WebElement eleUserDtlsForm = AppHooks.getInstance().getDriver().findElement(eleAddNewUserForm);
-			
-			if(eleUserDtlsForm.isDisplayed())
-			{
-				bEditScreenDisplayed = true;
-			
-				WebElement UserFName = AppHooks.getInstance().getDriver().findElement(eleAddUserFirstName);
-				strUserFirstName =  UserFName.getText();
-						
-				System.out.println("First Name: " + strUserFirstName);
-			}
-			else
-				bEditScreenDisplayed = false;
+			bEditScreenDisplayed = true;
+
+			System.out.println("First Name: " + strUserFirstName);
 		}
 		else
-			System.out.println("No Data to be displayed or Data Table not properly loaded !");
+			bEditScreenDisplayed = false;
 		
 		Thread.sleep(2000);
 	}
 	
+
 	public void AppendEditString(String strColName, String strEditString) throws InterruptedException
 	{
 		SetAddNewUserFormWithValues(strColName, strEditString, true, true);
@@ -1367,5 +1373,19 @@ public class User_Page
 		SetAddNewUserFormWithValues(strColName, strEditString, true, true);
 	}	
 	// EDIT SCREEN FEATURE FILE FUNCTIONS END HERE
+// ADDED BY ASWINI
+	public void ValidateSortIcon_userID()
+	{
+		commonFunctions.Click_SortIcon(sortIconTable_ID, "USER ID");
+	}
+	public void ValidateSortIcon_userID_Ascending()
+	{
+		commonFunctions.ValidateAscending_SortIcon(sortIconTable_ID, "USER ID");
+	}
+	public void ValidateSortIcon_userID_Descending()
+	{
+		commonFunctions.ValidateDescending_SortIcon(sortIconTable_ID, "USER ID");
+	}
+
 
 }
