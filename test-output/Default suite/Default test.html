@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>26/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>106/7/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Apr 29 19:44:14 EDT 2024</td>
+<td>Started on:</td><td>Wed May 01 19:45:06 EDT 2024</td>
 </tr>
-<tr><td>Total time:</td><td>147 seconds (147619 ms)</td>
+<tr><td>Total time:</td><td>803 seconds (803426 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,241 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The admin is presented with an error message", "Login Page Validation"</td>
+<td><div><pre>java.lang.AssertionError: Error message does not match expected:&lt;Invalid username and password. Please try again.&gt; but was:&lt;&gt;
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
+	at step_definitions.LoginValidation_Step.the_user_should_see_the_error_message_indicating_Invalid_password_please_try_again(LoginValidation_Step.java:96)
+	at ✽.the user should see the error message indicating &quot;&quot;Invalid password Please try again&quot;&quot;(file:///D:/LMS_UI/TEAM5_Validation_Vanguards_LMS_Project/src/test/resources/features/C.LoginValidation.feature:28)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1279095549", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1279095549'><pre>java.lang.AssertionError: Error message does not match expected:&lt;Invalid username and password. Please try again.&gt; but was:&lt;&gt;
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
+	at step_definitions.LoginValidation_Step.the_user_should_see_the_error_message_indicating_Invalid_password_please_try_again(LoginValidation_Step.java:96)
+	at ✽.the user should see the error message indicating &quot;&quot;Invalid password Please try again&quot;&quot;(file:///D:/LMS_UI/TEAM5_Validation_Vanguards_LMS_Project/src/test/resources/features/C.LoginValidation.feature:28)
+</pre></div></td>
+<td>4</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The admin is presented with an error message", "Login Page Validation"</td>
+<td><div><pre>java.lang.AssertionError: Error message does not match expected:&lt;Please enter valid username and password&gt; but was:&lt;Invalid username and password Please try again&gt;
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
+	at step_definitions.LoginValidation_Step.the_user_should_see_the_error_message_indicating_please_enter_username_and_password_in_correct_format(LoginValidation_Step.java:88)
+	at ✽.the user should see the error message indicating &quot;&quot;Please enter username and password in correct format&quot;&quot;(file:///D:/LMS_UI/TEAM5_Validation_Vanguards_LMS_Project/src/test/resources/features/C.LoginValidation.feature:28)
+</pre></div><a href='#' onClick='toggleBox("stack-trace581639050", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace581639050'><pre>java.lang.AssertionError: Error message does not match expected:&lt;Please enter valid username and password&gt; but was:&lt;Invalid username and password Please try again&gt;
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
+	at step_definitions.LoginValidation_Step.the_user_should_see_the_error_message_indicating_please_enter_username_and_password_in_correct_format(LoginValidation_Step.java:88)
+	at ✽.the user should see the error message indicating &quot;&quot;Please enter username and password in correct format&quot;&quot;(file:///D:/LMS_UI/TEAM5_Validation_Vanguards_LMS_Project/src/test/resources/features/C.LoginValidation.feature:28)
+</pre></div></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate admin able to see Delete button in Batch Page", "Batch Page Validation"</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: no such execution context
+  (Session info: chrome=124.0.6367.92)
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8bbe8c206402573f795ae6e0b71be94b, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.92, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\aswi1\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55278}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55278/devtoo..., se:cdpVersion: 124.0.6367.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8bbe8c206402573f795ae6e0b71be94b
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:592)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1035)
+	at app_hooks.AppHooks.setUp(AppHooks.java:37)
+</pre></div><a href='#' onClick='toggleBox("stack-trace356564577", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace356564577'><pre>org.openqa.selenium.WebDriverException: no such execution context
+  (Session info: chrome=124.0.6367.92)
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8bbe8c206402573f795ae6e0b71be94b, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.92, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\aswi1\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55278}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55278/devtoo..., se:cdpVersion: 124.0.6367.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8bbe8c206402573f795ae6e0b71be94b
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:592)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1035)
+	at app_hooks.AppHooks.setUp(AppHooks.java:37)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The admin is presented with an error message", "Login Page Validation"</td>
+<td><div><pre>java.lang.AssertionError: Error message does not match expected:&lt;Please enter your username and password&gt; but was:&lt;Please fill out this field.&gt;
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
+	at step_definitions.LoginValidation_Step.the_user_should_see_the_error_message_indicating_please_fill_out_this_field(LoginValidation_Step.java:118)
+	at ✽.the user should see the error message indicating &quot;&quot;Please fill out this field.&quot;&quot;(file:///D:/LMS_UI/TEAM5_Validation_Vanguards_LMS_Project/src/test/resources/features/C.LoginValidation.feature:28)
+</pre></div><a href='#' onClick='toggleBox("stack-trace237192410", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace237192410'><pre>java.lang.AssertionError: Error message does not match expected:&lt;Please enter your username and password&gt; but was:&lt;Please fill out this field.&gt;
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
+	at step_definitions.LoginValidation_Step.the_user_should_see_the_error_message_indicating_please_fill_out_this_field(LoginValidation_Step.java:118)
+	at ✽.the user should see the error message indicating &quot;&quot;Please fill out this field.&quot;&quot;(file:///D:/LMS_UI/TEAM5_Validation_Vanguards_LMS_Project/src/test/resources/features/C.LoginValidation.feature:28)
+</pre></div></td>
+<td>4</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate user is able to landing in the  Batch page", "Batch Page Validation"</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: no such execution context
+  (Session info: chrome=124.0.6367.92)
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3081ccba5c3aec25e2e2c177e3c07dba, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.92, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\aswi1\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55178}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55178/devtoo..., se:cdpVersion: 124.0.6367.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3081ccba5c3aec25e2e2c177e3c07dba
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:592)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1035)
+	at app_hooks.AppHooks.setUp(AppHooks.java:37)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1029071532", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1029071532'><pre>org.openqa.selenium.WebDriverException: no such execution context
+  (Session info: chrome=124.0.6367.92)
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3081ccba5c3aec25e2e2c177e3c07dba, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.92, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\aswi1\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55178}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55178/devtoo..., se:cdpVersion: 124.0.6367.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3081ccba5c3aec25e2e2c177e3c07dba
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:592)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1035)
+	at app_hooks.AppHooks.setUp(AppHooks.java:37)
+</pre></div></td>
+<td>2</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click Yes on deletion window", "Multiple Delete Program"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@icon = &apos;pi pi-times&apos;]&quot;}
+  (Session info: chrome=124.0.6367.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1bf5f42fb46fe4a332e8a0a7b6550ad4, findElement {using=xpath, value=//button[@icon = &apos;pi pi-times&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.92, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\aswi1\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55088}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55088/devtoo..., se:cdpVersion: 124.0.6367.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1bf5f42fb46fe4a332e8a0a7b6550ad4
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at pages.Program_Delete_Page.cancelicon(Program_Delete_Page.java:80)
+	at step_definitions.Program_Delete_Step.admin_clicks_cancel_icon_on_deletion_alert(Program_Delete_Step.java:77)
+	at ✽.Admin clicks Cancel Icon on Deletion alert(file:///D:/LMS_UI/TEAM5_Validation_Vanguards_LMS_Project/src/test/resources/features/I.Program_Delete.feature:37)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1827732300", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1827732300'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@icon = &apos;pi pi-times&apos;]&quot;}
+  (Session info: chrome=124.0.6367.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1bf5f42fb46fe4a332e8a0a7b6550ad4, findElement {using=xpath, value=//button[@icon = &apos;pi pi-times&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.92, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\aswi1\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55088}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55088/devtoo..., se:cdpVersion: 124.0.6367.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1bf5f42fb46fe4a332e8a0a7b6550ad4
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at pages.Program_Delete_Page.cancelicon(Program_Delete_Page.java:80)
+	at step_definitions.Program_Delete_Step.admin_clicks_cancel_icon_on_deletion_alert(Program_Delete_Step.java:77)
+	at ✽.Admin clicks Cancel Icon on Deletion alert(file:///D:/LMS_UI/TEAM5_Validation_Vanguards_LMS_Project/src/test/resources/features/I.Program_Delete.feature:37)
+</pre></div></td>
+<td>20</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The admin is presented with an error message", "Login Page Validation"</td>
+<td><div><pre>java.lang.AssertionError: Error message does not match expected:&lt;Please enter the username in correct format&gt; but was:&lt;&gt;
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
+	at step_definitions.LoginValidation_Step.the_user_should_see_the_error_message_indicating_please_enter_the_username_in_correct_format(LoginValidation_Step.java:105)
+	at ✽.the user should see the error message indicating &quot;&quot;Please enter the username in correct format&quot;&quot;(file:///D:/LMS_UI/TEAM5_Validation_Vanguards_LMS_Project/src/test/resources/features/C.LoginValidation.feature:28)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2055593048", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2055593048'><pre>java.lang.AssertionError: Error message does not match expected:&lt;Please enter the username in correct format&gt; but was:&lt;&gt;
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
+	at step_definitions.LoginValidation_Step.the_user_should_see_the_error_message_indicating_please_enter_the_username_in_correct_format(LoginValidation_Step.java:105)
+	at ✽.the user should see the error message indicating &quot;&quot;Please enter the username in correct format&quot;&quot;(file:///D:/LMS_UI/TEAM5_Validation_Vanguards_LMS_Project/src/test/resources/features/C.LoginValidation.feature:28)
+</pre></div></td>
+<td>4</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,19 +311,9 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the default state of Delete button", "Manage Program Validation"</td>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Program Details Popup window", "Add new Program"</td>
 <td></td>
 <td>5</td>
-<td>runner.TestNGrunner@7889a1ac</td></tr>
-<tr>
-<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Next page link", "Manage Program Validation"</td>
-<td></td>
-<td>5</td>
-<td>runner.TestNGrunner@7889a1ac</td></tr>
-<tr>
-<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validates Sorting(data ordering) ascending on the Program Data table - Program Description", "Manage Program Validation"</td>
-<td></td>
-<td>8</td>
 <td>runner.TestNGrunner@7889a1ac</td></tr>
 <tr>
 <td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Prev page link", "Manage Program Validation"</td>
@@ -96,22 +321,32 @@ function toggleAllBoxes() {
 <td>5</td>
 <td>runner.TestNGrunner@7889a1ac</td></tr>
 <tr>
-<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validates Sorting(data ordering) ascending on the Program Data table - Program Description", "Manage Program Validation"</td>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if the update throws error with invalid value", "Edit Batch"</td>
+<td></td>
+<td>13</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Admin should see  LMS - Learning Management System", "Home Page Verification"</td>
+<td></td>
+<td>4</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click Yes on deletion window", "Multiple Delete Program"</td>
 <td></td>
 <td>5</td>
 <td>runner.TestNGrunner@7889a1ac</td></tr>
 <tr>
-<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Edit and Delete buttons", "Manage Program Validation"</td>
-<td></td>
-<td>6</td>
-<td>runner.TestNGrunner@7889a1ac</td></tr>
-<tr>
-<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that number of records (rows of data in the table) displayed", "Manage Program Validation"</td>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Change Program Status", "Edit Program Details"</td>
 <td></td>
 <td>5</td>
 <td>runner.TestNGrunner@7889a1ac</td></tr>
 <tr>
-<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validates Sorting(data ordering) descending on the Program Data table - ProgramName", "Manage Program Validation"</td>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The admin validates the correct spelling of LMS title and  space", "Dashboard Page"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate details for Confirm Deletion form", "Add new Program"</td>
 <td></td>
 <td>5</td>
 <td>runner.TestNGrunner@7889a1ac</td></tr>
@@ -121,19 +356,9 @@ function toggleAllBoxes() {
 <td>5</td>
 <td>runner.TestNGrunner@7889a1ac</td></tr>
 <tr>
-<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Sort arrow icon on the data table", "Manage Program Validation"</td>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate accept alert", "Delet Batch"</td>
 <td></td>
-<td>5</td>
-<td>runner.TestNGrunner@7889a1ac</td></tr>
-<tr>
-<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Start page link", "Manage Program Validation"</td>
-<td></td>
-<td>5</td>
-<td>runner.TestNGrunner@7889a1ac</td></tr>
-<tr>
-<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validates Sorting(data ordering) descending on the Program Data table - Program Description", "Manage Program Validation"</td>
-<td></td>
-<td>5</td>
+<td>7</td>
 <td>runner.TestNGrunner@7889a1ac</td></tr>
 <tr>
 <td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the text and pagination icon below the data table", "Manage Program Validation"</td>
@@ -141,57 +366,7 @@ function toggleAllBoxes() {
 <td>5</td>
 <td>runner.TestNGrunner@7889a1ac</td></tr>
 <tr>
-<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate login with valid credentials", "Home Page Verification"</td>
-<td></td>
-<td>6</td>
-<td>runner.TestNGrunner@7889a1ac</td></tr>
-<tr>
-<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Search bar on the Program page", "Manage Program Validation"</td>
-<td></td>
-<td>5</td>
-<td>runner.TestNGrunner@7889a1ac</td></tr>
-<tr>
-<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Batch link on navigation bar", "Manage Program Validation"</td>
-<td></td>
-<td>5</td>
-<td>runner.TestNGrunner@7889a1ac</td></tr>
-<tr>
-<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the heading", "Manage Program Validation"</td>
-<td></td>
-<td>5</td>
-<td>runner.TestNGrunner@7889a1ac</td></tr>
-<tr>
-<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Batch link on navigation bar", "Manage Program Validation"</td>
-<td></td>
-<td>5</td>
-<td>runner.TestNGrunner@7889a1ac</td></tr>
-<tr>
-<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify data table on the Program page", "Manage Program Validation"</td>
-<td></td>
-<td>5</td>
-<td>runner.TestNGrunner@7889a1ac</td></tr>
-<tr>
-<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validates Sorting(data ordering) descending on the Program Data table - Program Description", "Manage Program Validation"</td>
-<td></td>
-<td>5</td>
-<td>runner.TestNGrunner@7889a1ac</td></tr>
-<tr>
-<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Check box on the data table", "Manage Program Validation"</td>
-<td></td>
-<td>5</td>
-<td>runner.TestNGrunner@7889a1ac</td></tr>
-<tr>
-<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Add New Program", "Manage Program Validation"</td>
-<td></td>
-<td>5</td>
-<td>runner.TestNGrunner@7889a1ac</td></tr>
-<tr>
-<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate landing in Program page", "Manage Program Validation"</td>
-<td></td>
-<td>5</td>
-<td>runner.TestNGrunner@7889a1ac</td></tr>
-<tr>
-<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validates Sorting(data ordering) ascending on the Program Data table - ProgramName", "Manage Program Validation"</td>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Enter only Program Description", "Add new program detail"</td>
 <td></td>
 <td>5</td>
 <td>runner.TestNGrunner@7889a1ac</td></tr>
@@ -201,7 +376,467 @@ function toggleAllBoxes() {
 <td>5</td>
 <td>runner.TestNGrunner@7889a1ac</td></tr>
 <tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Admin should see * symbol next to user text", "Home Page Verification"</td>
+<td></td>
+<td>4</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate data rows", "Batch Page Validation"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate invalid values on the text column", "Add new program detail"</td>
+<td></td>
+<td>15</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate header in the BatchPage", "Batch Page Validation"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Save button on Program Details form", "Add new program detail"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate login with valid credentials", "Home Page Verification"</td>
+<td></td>
+<td>6</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Start page link", "Manage Program Validation"</td>
+<td></td>
+<td>6</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify login button action through keyboard", "Login Page Validation"</td>
+<td></td>
+<td>4</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The admin gets an error message for empty password field", "Login Page Validation"</td>
+<td></td>
+<td>4</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Admin Check if the programBatch details are added in data table", "Add new Batch"</td>
+<td></td>
+<td>18</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate input fields and their text boxes in Program details form", "Add new Program"</td>
+<td></td>
+<td>6</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate "+ A New batch" in Batch Page", "Batch Page Validation"</td>
+<td></td>
+<td>6</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for error messages for invalid fields", "Add new Batch"</td>
+<td></td>
+<td>14</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click Yes on deletion window", "Multiple Delete Program"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate multiple program deletion by selecting title checkbox", "Multiple Delete Program"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The Admin should to verify to see correct spellings in all fields", "Home Page Verification"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Sort arrow icon on the data table", "Manage Program Validation"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Edit Program Name", "Edit Program Details"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Admin should see LMS - Learning Management System as Title", "Dashboard Page"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that number of records (rows of data in the table) displayed", "Manage Program Validation"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Admin should see logo on the left  side", "Home Page Verification"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate radio button for Program Status", "Add new Program"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Cancel button on Edit popup", "Edit Program Details"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if the BatchDetails fields exist in pop", "Add new Batch"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Empty form submission", "Add new program detail"</td>
+<td></td>
+<td>15</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if Batchdescription is optional field", "Add new Batch"</td>
+<td></td>
+<td>6</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "THe Admin should be able to see company name below the app name", "Home Page Verification"</td>
+<td></td>
+<td>4</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if description field is optional in update", "Edit Batch"</td>
+<td></td>
+<td>8</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for the multi row delete", "Delete Multiple Batches"</td>
+<td></td>
+<td>8</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Admin should see the password field in gray color", "Home Page Verification"</td>
+<td></td>
+<td>4</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Admin Validate row level edit icon", "Edit Batch"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate data table headers in the Batch Page", "Batch Page Validation"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate reject alert", "Delet Batch"</td>
+<td></td>
+<td>9</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The Admin should see two text field", "Home Page Verification"</td>
+<td></td>
+<td>4</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the default state of Delete button", "Manage Program Validation"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Save button on Edit popup", "Edit Program Details"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Create Program with data from excel", "Create Program Validation"</td>
+<td></td>
+<td>32</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Admin should see input field on the centre of the page", "Home Page Verification"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Admin should see * symbol next to password text", "Home Page Verification"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Check box on the data table", "Manage Program Validation"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate multiple program deletion by selecting Single checkbox", "Multiple Delete Program"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Search bar on the Program page", "Manage Program Validation"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validates Sorting(data ordering) ascending on the Program Data table - Program Description", "Manage Program Validation"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Batch link on navigation bar", "Manage Program Validation"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Enter only Program Name", "Add new program detail"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The admin gets an error mesage when with null username is given", "Login Page Validation"</td>
+<td></td>
+<td>4</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Select Status only", "Add new program detail"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Create Batch with data from excel", "Create Program Validation"</td>
+<td></td>
+<td>41</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Admin should see the word "password" in the second text field", "Home Page Verification"</td>
+<td></td>
+<td>4</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Admin should see login button", "Home Page Verification"</td>
+<td></td>
+<td>4</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Edit Feature", "Add new Program"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Admin should see the word "user" in the first text", "Home Page Verification"</td>
+<td></td>
+<td>4</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The admin should see username in gray color", "Home Page Verification"</td>
+<td></td>
+<td>4</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The Admin should recieve an error message  for 404 page not found", "Home Page Verification"</td>
+<td></td>
+<td>4</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the heading", "Manage Program Validation"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Admin should see login button on the centre of the page", "Home Page Verification"</td>
+<td></td>
+<td>4</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Next page link", "Manage Program Validation"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Delete Feature", "Add new Program"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if the fields are updated", "Edit Batch"</td>
+<td></td>
+<td>11</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Batch link on navigation bar", "Manage Program Validation"</td>
+<td></td>
+<td>6</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Cancel button on Program Details form", "Add new program detail"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Add New Program", "Manage Program Validation"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate row level delete icon", "Delet Batch"</td>
+<td></td>
+<td>11</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The admin is presented with an error message", "Login Page Validation"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The Admin should see Manage Program as header", "Dashboard Page"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Admin should land on the home page", "Home Page Verification"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate landing in Program page", "Manage Program Validation"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validates Sorting(data ordering) descending on the Program Data table - Program Description", "Manage Program Validation"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validates Sorting(data ordering) ascending on the Program Data table - Program Description", "Manage Program Validation"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify data table on the Program page", "Manage Program Validation"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Edit and Delete buttons", "Manage Program Validation"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The Admin should receive the link is broken if HTTP response >= 400", "Home Page Verification"</td>
+<td></td>
+<td>20</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The admin signs with correct credentials", "Login Page Validation"</td>
+<td></td>
+<td>4</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validates Sorting(data ordering) descending on the Program Data table - Program Description", "Manage Program Validation"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Cancel/Close(X) icon on Program Details form", "Add new program detail"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
 <td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Last page link", "Manage Program Validation"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate multiple program deletion by selecting Single checkbox", "Multiple Delete Program"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The admin is presented with an error message", "Login Page Validation"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The admin gets an error message when invalid username and password is given", "Login Page Validation"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the delete icon that present below the header", "Delete Multiple Batches"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To verify that the maximum navigation time in milliseconds, defaults to 30 seconds", "Dashboard Page"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The Admin should receive the link is broken if HTTP response >= 400", "Dashboard Page"</td>
+<td></td>
+<td>20</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validates Sorting(data ordering) descending on the Program Data table - ProgramName", "Manage Program Validation"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Edit Program description", "Edit Program Details"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify login button action through mouse", "Login Page Validation"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate pop up for adding batch", "Batch Page Validation"</td>
+<td></td>
+<td>6</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for the single row delete", "Delete Multiple Batches"</td>
+<td></td>
+<td>7</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validates Sorting(data ordering) ascending on the Program Data table - ProgramName", "Manage Program Validation"</td>
+<td></td>
+<td>6</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for error messages for mandatory fields", "Add new Batch"</td>
+<td></td>
+<td>13</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if you get error message when mandatory fields are erased", "Edit Batch"</td>
+<td></td>
+<td>13</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Admin should see "Please login to LMS application"", "Home Page Verification"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate user able to do pagination in the Batch Page", "Batch Page Validation"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestNGrunner@7889a1ac</td></tr>
+<tr>
+<td title='runner.TestNGrunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate program deletion by selecting Single checkbox", "Multiple Delete Program"</td>
 <td></td>
 <td>5</td>
 <td>runner.TestNGrunner@7889a1ac</td></tr>

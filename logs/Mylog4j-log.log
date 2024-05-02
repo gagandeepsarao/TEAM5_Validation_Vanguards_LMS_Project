@@ -1,359 +1,503 @@
-[INFO ]2024-04-2919:25:11.675[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:25:16.680[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
-[INFO ]2024-04-2919:25:16.779[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
-[INFO ]2024-04-2919:25:16.795[main]utilities.Logger_Load1)-Admin is able to see URL in Manage Program
-[INFO ]2024-04-2919:25:17.747[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:25:21.843[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
-[INFO ]2024-04-2919:25:21.954[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
-[INFO ]2024-04-2919:25:22.001[main]utilities.Logger_Load1)-Manage Program is present as expected...
-[INFO ]2024-04-2919:25:22.869[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:25:27.033[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
-[INFO ]2024-04-2919:25:27.156[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
-[INFO ]2024-04-2919:25:27.207[main]utilities.Logger_Load1)-Pagination text is present as expected... Showing 1 to 5 of 44 entries
-[INFO ]2024-04-2919:25:28.168[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:25:32.296[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
-[INFO ]2024-04-2919:25:32.386[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
-[INFO ]2024-04-2919:25:32.434[main]utilities.Logger_Load1)-Footer text is present as expected... In total there are 44 programs.
-[INFO ]2024-04-2919:25:33.323[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:25:37.486[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
-[INFO ]2024-04-2919:25:37.578[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
-[INFO ]2024-04-2919:25:37.605[main]utilities.Logger_Load1)-The button Delete Button is disabled as expected....
-[INFO ]2024-04-2919:25:38.487[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:25:42.468[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
-[INFO ]2024-04-2919:25:42.560[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
-[INFO ]2024-04-2919:25:42.609[main]utilities.Logger_Load1)-The button Add Program Button is displayed as expected....
-[INFO ]2024-04-2919:25:43.456[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:25:47.557[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
-[INFO ]2024-04-2919:25:47.654[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
-[INFO ]2024-04-2919:25:47.677[main]utilities.Logger_Load1)-Total Number of records displayed is 5 - As expected
-[INFO ]2024-04-2919:25:48.556[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:25:52.504[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
-[INFO ]2024-04-2919:25:52.589[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
-[INFO ]2024-04-2919:25:52.612[main]utilities.Logger_Load1)-Program Table Headers are....
-[INFO ]2024-04-2919:25:52.644[main]utilities.Logger_Load1)-Program Name
-[INFO ]2024-04-2919:25:52.672[main]utilities.Logger_Load1)-Program Description
-[INFO ]2024-04-2919:25:52.695[main]utilities.Logger_Load1)-Program Status
-[INFO ]2024-04-2919:25:52.715[main]utilities.Logger_Load1)-Edit / Delete
-[INFO ]2024-04-2919:25:53.677[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:25:58.131[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
-[INFO ]2024-04-2919:25:58.223[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
-[INFO ]2024-04-2919:25:58.334[main]utilities.Logger_Load1)-Sort arrow icon is present in Program Name Header 
-[INFO ]2024-04-2919:25:58.335[main]utilities.Logger_Load1)-Sort arrow icon is present in Program Description Header 
-[INFO ]2024-04-2919:25:58.336[main]utilities.Logger_Load1)-Sort arrow icon is present in Program Status Header 
-[INFO ]2024-04-2919:25:59.301[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:26:03.423[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
-[INFO ]2024-04-2919:26:03.511[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
-[INFO ]2024-04-2919:26:03.582[main]utilities.Logger_Load1)-Check Box is present in Row Number:1 - As expected
-[INFO ]2024-04-2919:26:03.609[main]utilities.Logger_Load1)-Check Box is present in Row Number:2 - As expected
-[INFO ]2024-04-2919:26:03.634[main]utilities.Logger_Load1)-Check Box is present in Row Number:3 - As expected
-[INFO ]2024-04-2919:26:03.662[main]utilities.Logger_Load1)-Check Box is present in Row Number:4 - As expected
-[INFO ]2024-04-2919:26:03.690[main]utilities.Logger_Load1)-Check Box is present in Row Number:5 - As expected
-[INFO ]2024-04-2919:26:04.598[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:26:08.625[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
-[INFO ]2024-04-2919:26:08.718[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
-[INFO ]2024-04-2919:26:08.801[main]utilities.Logger_Load1)-Edit Button is present in Row Number:1 - As expected
-[INFO ]2024-04-2919:26:08.801[main]utilities.Logger_Load1)-Edit Button is enabled in Row Number:1 - As expected
-[INFO ]2024-04-2919:26:08.845[main]utilities.Logger_Load1)-Edit Button is present in Row Number:2 - As expected
-[INFO ]2024-04-2919:26:08.845[main]utilities.Logger_Load1)-Edit Button is enabled in Row Number:2 - As expected
-[INFO ]2024-04-2919:26:08.887[main]utilities.Logger_Load1)-Edit Button is present in Row Number:3 - As expected
-[INFO ]2024-04-2919:26:08.887[main]utilities.Logger_Load1)-Edit Button is enabled in Row Number:3 - As expected
-[INFO ]2024-04-2919:26:08.933[main]utilities.Logger_Load1)-Edit Button is present in Row Number:4 - As expected
-[INFO ]2024-04-2919:26:08.933[main]utilities.Logger_Load1)-Edit Button is enabled in Row Number:4 - As expected
-[INFO ]2024-04-2919:26:08.975[main]utilities.Logger_Load1)-Edit Button is present in Row Number:5 - As expected
-[INFO ]2024-04-2919:26:08.975[main]utilities.Logger_Load1)-Edit Button is enabled in Row Number:5 - As expected
-[INFO ]2024-04-2919:26:09.032[main]utilities.Logger_Load1)-Delete Button is present in Row Number:1 - As expected
-[INFO ]2024-04-2919:26:09.033[main]utilities.Logger_Load1)-Delete Button is enabled in Row Number:1 - As expected
-[INFO ]2024-04-2919:26:09.092[main]utilities.Logger_Load1)-Delete Button is present in Row Number:2 - As expected
-[INFO ]2024-04-2919:26:09.093[main]utilities.Logger_Load1)-Delete Button is enabled in Row Number:2 - As expected
-[INFO ]2024-04-2919:26:09.137[main]utilities.Logger_Load1)-Delete Button is present in Row Number:3 - As expected
-[INFO ]2024-04-2919:26:09.137[main]utilities.Logger_Load1)-Delete Button is enabled in Row Number:3 - As expected
-[INFO ]2024-04-2919:26:09.183[main]utilities.Logger_Load1)-Delete Button is present in Row Number:4 - As expected
-[INFO ]2024-04-2919:26:09.184[main]utilities.Logger_Load1)-Delete Button is enabled in Row Number:4 - As expected
-[INFO ]2024-04-2919:26:09.232[main]utilities.Logger_Load1)-Delete Button is present in Row Number:5 - As expected
-[INFO ]2024-04-2919:26:09.232[main]utilities.Logger_Load1)-Delete Button is enabled in Row Number:5 - As expected
-[INFO ]2024-04-2919:26:10.101[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:26:14.246[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
-[INFO ]2024-04-2919:26:14.334[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
-[INFO ]2024-04-2919:26:14.382[main]utilities.Logger_Load1)-Search Bar is displayed - As expected
-[INFO ]2024-04-2919:26:14.411[main]utilities.Logger_Load1)-Search Text Search... is displayed - As expected
-[INFO ]2024-04-2919:26:15.262[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:26:19.543[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
-[INFO ]2024-04-2919:26:19.588[main]utilities.Logger_Load1)-Manage Program is present as expected...
-[INFO ]2024-04-2919:26:19.625[main]utilities.Logger_Load1)-SortIcon - Program Name is displayed - As expected
-[INFO ]2024-04-2919:26:19.697[main]utilities.Logger_Load1)-Sort Icon - Program Name is clicked successfully
-[INFO ]2024-04-2919:26:19.728[main]utilities.Logger_Load1)-Ascending SortIcon - Program Name is displayed - As expected
-[INFO ]2024-04-2919:26:20.619[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:26:24.594[main]utilities.Logger_Load1)-SortIcon - Program Name is displayed - As expected
-[INFO ]2024-04-2919:26:24.700[main]utilities.Logger_Load1)-Sort Icon - Program Name is clicked successfully
-[INFO ]2024-04-2919:26:24.732[main]utilities.Logger_Load1)-Ascending SortIcon - Program Name is displayed - As expected
-[INFO ]2024-04-2919:26:24.758[main]utilities.Logger_Load1)-SortIcon - Program Name is displayed - As expected
-[INFO ]2024-04-2919:26:24.824[main]utilities.Logger_Load1)-Sort Icon - Program Name is clicked successfully
-[INFO ]2024-04-2919:26:24.850[main]utilities.Logger_Load1)-Descending SortIcon - Program Name is displayed - As expected
-[INFO ]2024-04-2919:26:25.706[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:26:30.037[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
-[INFO ]2024-04-2919:26:30.086[main]utilities.Logger_Load1)-Manage Program is present as expected...
-[INFO ]2024-04-2919:26:30.117[main]utilities.Logger_Load1)-SortIcon - Program Description is displayed - As expected
-[INFO ]2024-04-2919:26:30.184[main]utilities.Logger_Load1)-Sort Icon - Program Description is clicked successfully
-[INFO ]2024-04-2919:26:30.211[main]utilities.Logger_Load1)-Ascending SortIcon - Program Description is displayed - As expected
-[INFO ]2024-04-2919:26:31.119[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:26:35.118[main]utilities.Logger_Load1)-SortIcon - Program Description is displayed - As expected
-[INFO ]2024-04-2919:26:35.229[main]utilities.Logger_Load1)-Sort Icon - Program Description is clicked successfully
-[INFO ]2024-04-2919:26:35.266[main]utilities.Logger_Load1)-Ascending SortIcon - Program Description is displayed - As expected
-[INFO ]2024-04-2919:26:35.298[main]utilities.Logger_Load1)-SortIcon - Program Description is displayed - As expected
-[INFO ]2024-04-2919:26:35.366[main]utilities.Logger_Load1)-Sort Icon - Program Description is clicked successfully
-[INFO ]2024-04-2919:26:35.389[main]utilities.Logger_Load1)-Descending SortIcon - Program Description is displayed - As expected
-[INFO ]2024-04-2919:26:36.237[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:26:40.382[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
-[INFO ]2024-04-2919:26:40.427[main]utilities.Logger_Load1)-Manage Program is present as expected...
-[INFO ]2024-04-2919:26:40.459[main]utilities.Logger_Load1)-SortIcon - Program Status is displayed - As expected
-[INFO ]2024-04-2919:26:40.522[main]utilities.Logger_Load1)-Sort Icon - Program Status is clicked successfully
-[INFO ]2024-04-2919:26:40.545[main]utilities.Logger_Load1)-Ascending SortIcon - Program Status is displayed - As expected
-[INFO ]2024-04-2919:26:41.474[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:26:45.529[main]utilities.Logger_Load1)-SortIcon - Program Status is displayed - As expected
-[INFO ]2024-04-2919:26:45.622[main]utilities.Logger_Load1)-Sort Icon - Program Status is clicked successfully
-[INFO ]2024-04-2919:26:45.652[main]utilities.Logger_Load1)-Ascending SortIcon - Program Status is displayed - As expected
-[INFO ]2024-04-2919:26:45.676[main]utilities.Logger_Load1)-SortIcon - Program Status is displayed - As expected
-[INFO ]2024-04-2919:26:45.731[main]utilities.Logger_Load1)-Sort Icon - Program Status is clicked successfully
-[INFO ]2024-04-2919:26:45.755[main]utilities.Logger_Load1)-Descending SortIcon - Program Status is displayed - As expected
-[INFO ]2024-04-2919:26:46.618[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:26:50.632[main]utilities.Logger_Load1)-Manage Program is present as expected...
-[INFO ]2024-04-2919:26:50.678[main]utilities.Logger_Load1)-Pagination - Next button is displayed - As expected
-[INFO ]2024-04-2919:26:50.767[main]utilities.Logger_Load1)-Pagination - Next button is clicked successfully
-[INFO ]2024-04-2919:26:50.811[main]utilities.Logger_Load1)-Pagination - Admin is able to navigate to Next Page - As expected
-[INFO ]2024-04-2919:26:51.656[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:26:55.788[main]utilities.Logger_Load1)-Manage Program is present as expected...
-[INFO ]2024-04-2919:26:55.834[main]utilities.Logger_Load1)-Pagination - Last button is displayed - As expected
-[INFO ]2024-04-2919:26:55.915[main]utilities.Logger_Load1)-Pagination - Last button is clicked successfully
-[INFO ]2024-04-2919:26:55.947[main]utilities.Logger_Load1)-Pagination - Admin is able to navigate to Last Page - As expected
-[INFO ]2024-04-2919:26:56.825[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:27:01.311[main]utilities.Logger_Load1)-Manage Program is present as expected...
-[INFO ]2024-04-2919:27:01.342[main]utilities.Logger_Load1)-Pagination - Last button is displayed - As expected
-[INFO ]2024-04-2919:27:01.426[main]utilities.Logger_Load1)-Pagination - Last button is clicked successfully
-[INFO ]2024-04-2919:27:01.453[main]utilities.Logger_Load1)-Pagination - Previous button is displayed - As expected
-[INFO ]2024-04-2919:27:01.509[main]utilities.Logger_Load1)-Pagination - Previous button is clicked successfully
-[INFO ]2024-04-2919:27:01.546[main]utilities.Logger_Load1)-Pagination - Admin is able to navigate to Previous Page - As expected
-[INFO ]2024-04-2919:27:02.404[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:27:06.548[main]utilities.Logger_Load1)-Manage Program is present as expected...
-[INFO ]2024-04-2919:27:06.600[main]utilities.Logger_Load1)-Pagination - Last button is displayed - As expected
-[INFO ]2024-04-2919:27:06.681[main]utilities.Logger_Load1)-Pagination - Last button is clicked successfully
-[INFO ]2024-04-2919:27:06.705[main]utilities.Logger_Load1)-Pagination - Previous button is displayed - As expected
-[INFO ]2024-04-2919:27:06.756[main]utilities.Logger_Load1)-Pagination - Previous button is clicked successfully
-[INFO ]2024-04-2919:27:06.784[main]utilities.Logger_Load1)-Pagination - First button is displayed - As expected
-[INFO ]2024-04-2919:27:06.852[main]utilities.Logger_Load1)-Pagination - First button is clicked successfully
-[INFO ]2024-04-2919:27:06.887[main]utilities.Logger_Load1)-Pagination - Admin is able to navigate to First Page - As expected
-[INFO ]2024-04-2919:27:07.746[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:27:11.859[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
-[INFO ]2024-04-2919:27:11.911[main]utilities.Logger_Load1)-Manage Program is present as expected...
-[INFO ]2024-04-2919:27:12.000[main]utilities.Logger_Load1)-Clicked on Batch Button on navigation bar....
-[INFO ]2024-04-2919:27:12.036[main]utilities.Logger_Load1)-Manage Batch is present as expected...
-[INFO ]2024-04-2919:27:12.914[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:27:17.240[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
-[INFO ]2024-04-2919:27:17.296[main]utilities.Logger_Load1)-Manage Program is present as expected...
-[INFO ]2024-04-2919:27:17.392[main]utilities.Logger_Load1)-Clicked on User Button on navigation bar....
-[INFO ]2024-04-2919:27:17.429[main]utilities.Logger_Load1)-Manage User is present as expected...
-[INFO ]2024-04-2919:27:18.334[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:27:22.341[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
-[INFO ]2024-04-2919:27:22.419[main]utilities.Logger_Load1)-Manage Program is present as expected...
-[INFO ]2024-04-2919:27:22.501[main]utilities.Logger_Load1)-Clicked on Logout Button on navigation bar....
-[INFO ]2024-04-2919:27:22.533[main]utilities.Logger_Load1)-Logout is done successfully
-[INFO ]2024-04-2919:44:14.378[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
-[INFO ]2024-04-2919:44:14.401[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 16 ms.
-[INFO ]2024-04-2919:44:14.407[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ]2024-04-2919:44:14.408[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ]2024-04-2919:44:14.413[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ]2024-04-2919:44:14.415[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ]2024-04-2919:44:14.416[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ]2024-04-2919:44:14.416[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ]2024-04-2919:44:14.420[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ]2024-04-2919:44:14.437[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 14 ms.
-[INFO ]2024-04-2919:44:14.444[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
-[INFO ]2024-04-2919:44:14.447[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-[INFO ]2024-04-2919:44:14.452[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ]2024-04-2919:44:14.452[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ]2024-04-2919:44:14.457[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ]2024-04-2919:44:14.460[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ]2024-04-2919:44:14.464[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ]2024-04-2919:44:14.465[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ]2024-04-2919:44:14.467[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ]2024-04-2919:44:14.467[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ]2024-04-2919:44:14.470[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ]2024-04-2919:44:14.472[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-[INFO ]2024-04-2919:44:14.473[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ]2024-04-2919:44:14.473[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ]2024-04-2919:44:14.480[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
-[INFO ]2024-04-2919:44:14.482[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ]2024-04-2919:44:14.484[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ]2024-04-2919:44:14.484[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ]2024-04-2919:44:14.485[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-[INFO ]2024-04-2919:44:14.485[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-[INFO ]2024-04-2919:44:14.499[main]org.testng.internal.Utils1)-[TestNG] Running:
-  C:\Users\aswi1\AppData\Local\Temp\testng-eclipse-1114769859\testng-customsuite.xml
+[INFO ]2024-05-0119:45:06.632[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-0119:45:06.651[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+[INFO ]2024-05-0119:45:06.660[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-0119:45:06.661[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-0119:45:06.662[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-0119:45:06.663[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-0119:45:06.665[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-0119:45:06.665[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-0119:45:06.667[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-0119:45:06.690[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 22 ms.
+[INFO ]2024-05-0119:45:06.696[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-0119:45:06.698[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ]2024-05-0119:45:06.700[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-0119:45:06.701[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-0119:45:06.703[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-0119:45:06.704[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-0119:45:06.710[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-0119:45:06.712[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-0119:45:06.714[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-0119:45:06.715[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-0119:45:06.719[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-0119:45:06.720[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-0119:45:06.720[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-0119:45:06.721[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-0119:45:06.730[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 6 ms.
+[INFO ]2024-05-0119:45:06.731[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-0119:45:06.734[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-0119:45:06.734[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-0119:45:06.735[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-0119:45:06.735[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-0119:45:06.749[main]org.testng.internal.Utils1)-[TestNG] Running:
+  C:\Users\aswi1\AppData\Local\Temp\testng-eclipse--1496476049\testng-customsuite.xml
 
-[INFO ]2024-04-2919:44:14.546[main]org.testng.internal.Utils1)-[Utils] DynamicGraphHelper.createDynamicGraph() took 5 ms.
-[INFO ]2024-04-2919:44:15.845[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:44:20.864[main]utilities.Logger_Load1)-LMS
-[INFO ]2024-04-2919:44:20.865[main]utilities.Logger_Load1)-Title is LMS as expected
-[INFO ]2024-04-2919:44:22.109[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:44:26.525[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
-[INFO ]2024-04-2919:44:26.647[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
-[INFO ]2024-04-2919:44:26.667[main]utilities.Logger_Load1)-Admin is able to see URL in Manage Program
-[INFO ]2024-04-2919:44:27.614[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:44:31.834[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
-[INFO ]2024-04-2919:44:31.951[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
-[INFO ]2024-04-2919:44:32.000[main]utilities.Logger_Load1)-Manage Program is present as expected...
-[INFO ]2024-04-2919:44:32.986[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:44:37.481[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
-[INFO ]2024-04-2919:44:37.601[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
-[INFO ]2024-04-2919:44:37.651[main]utilities.Logger_Load1)-Pagination text is present as expected... Showing 1 to 5 of 46 entries
-[INFO ]2024-04-2919:44:38.580[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:44:42.870[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
-[INFO ]2024-04-2919:44:42.984[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
-[INFO ]2024-04-2919:44:43.035[main]utilities.Logger_Load1)-Footer text is present as expected... In total there are 46 programs.
-[INFO ]2024-04-2919:44:43.964[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:44:48.405[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
-[INFO ]2024-04-2919:44:48.522[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
-[INFO ]2024-04-2919:44:48.555[main]utilities.Logger_Load1)-The button Delete Button is disabled as expected....
-[INFO ]2024-04-2919:44:49.488[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:44:53.746[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
-[INFO ]2024-04-2919:44:53.854[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
-[INFO ]2024-04-2919:44:53.898[main]utilities.Logger_Load1)-The button Add Program Button is displayed as expected....
-[INFO ]2024-04-2919:44:54.860[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:44:58.924[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
-[INFO ]2024-04-2919:44:59.057[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
-[INFO ]2024-04-2919:44:59.086[main]utilities.Logger_Load1)-Total Number of records displayed is 5 - As expected
-[INFO ]2024-04-2919:45:00.021[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:45:04.262[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
-[INFO ]2024-04-2919:45:04.359[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
-[INFO ]2024-04-2919:45:04.381[main]utilities.Logger_Load1)-Program Table Headers are....
-[INFO ]2024-04-2919:45:04.417[main]utilities.Logger_Load1)-Program Name
-[INFO ]2024-04-2919:45:04.446[main]utilities.Logger_Load1)-Program Description
-[INFO ]2024-04-2919:45:04.473[main]utilities.Logger_Load1)-Program Status
-[INFO ]2024-04-2919:45:04.495[main]utilities.Logger_Load1)-Edit / Delete
-[INFO ]2024-04-2919:45:05.453[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:45:09.630[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
-[INFO ]2024-04-2919:45:09.744[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
-[INFO ]2024-04-2919:45:09.841[main]utilities.Logger_Load1)-Sort arrow icon is present in Program Name Header 
-[INFO ]2024-04-2919:45:09.843[main]utilities.Logger_Load1)-Sort arrow icon is present in Program Description Header 
-[INFO ]2024-04-2919:45:09.843[main]utilities.Logger_Load1)-Sort arrow icon is present in Program Status Header 
-[INFO ]2024-04-2919:45:10.738[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:45:15.060[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
-[INFO ]2024-04-2919:45:15.163[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
-[INFO ]2024-04-2919:45:15.234[main]utilities.Logger_Load1)-Check Box is present in Row Number:1 - As expected
-[INFO ]2024-04-2919:45:15.271[main]utilities.Logger_Load1)-Check Box is present in Row Number:2 - As expected
-[INFO ]2024-04-2919:45:15.304[main]utilities.Logger_Load1)-Check Box is present in Row Number:3 - As expected
-[INFO ]2024-04-2919:45:15.332[main]utilities.Logger_Load1)-Check Box is present in Row Number:4 - As expected
-[INFO ]2024-04-2919:45:15.361[main]utilities.Logger_Load1)-Check Box is present in Row Number:5 - As expected
-[INFO ]2024-04-2919:45:16.285[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:45:20.611[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
-[INFO ]2024-04-2919:45:20.731[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
-[INFO ]2024-04-2919:45:20.813[main]utilities.Logger_Load1)-Edit Button is present in Row Number:1 - As expected
-[INFO ]2024-04-2919:45:20.814[main]utilities.Logger_Load1)-Edit Button is enabled in Row Number:1 - As expected
-[INFO ]2024-04-2919:45:20.865[main]utilities.Logger_Load1)-Edit Button is present in Row Number:2 - As expected
-[INFO ]2024-04-2919:45:20.865[main]utilities.Logger_Load1)-Edit Button is enabled in Row Number:2 - As expected
-[INFO ]2024-04-2919:45:20.911[main]utilities.Logger_Load1)-Edit Button is present in Row Number:3 - As expected
-[INFO ]2024-04-2919:45:20.911[main]utilities.Logger_Load1)-Edit Button is enabled in Row Number:3 - As expected
-[INFO ]2024-04-2919:45:20.957[main]utilities.Logger_Load1)-Edit Button is present in Row Number:4 - As expected
-[INFO ]2024-04-2919:45:20.958[main]utilities.Logger_Load1)-Edit Button is enabled in Row Number:4 - As expected
-[INFO ]2024-04-2919:45:21.009[main]utilities.Logger_Load1)-Edit Button is present in Row Number:5 - As expected
-[INFO ]2024-04-2919:45:21.010[main]utilities.Logger_Load1)-Edit Button is enabled in Row Number:5 - As expected
-[INFO ]2024-04-2919:45:21.081[main]utilities.Logger_Load1)-Delete Button is present in Row Number:1 - As expected
-[INFO ]2024-04-2919:45:21.081[main]utilities.Logger_Load1)-Delete Button is enabled in Row Number:1 - As expected
-[INFO ]2024-04-2919:45:21.127[main]utilities.Logger_Load1)-Delete Button is present in Row Number:2 - As expected
-[INFO ]2024-04-2919:45:21.127[main]utilities.Logger_Load1)-Delete Button is enabled in Row Number:2 - As expected
-[INFO ]2024-04-2919:45:21.173[main]utilities.Logger_Load1)-Delete Button is present in Row Number:3 - As expected
-[INFO ]2024-04-2919:45:21.173[main]utilities.Logger_Load1)-Delete Button is enabled in Row Number:3 - As expected
-[INFO ]2024-04-2919:45:21.227[main]utilities.Logger_Load1)-Delete Button is present in Row Number:4 - As expected
-[INFO ]2024-04-2919:45:21.227[main]utilities.Logger_Load1)-Delete Button is enabled in Row Number:4 - As expected
-[INFO ]2024-04-2919:45:21.277[main]utilities.Logger_Load1)-Delete Button is present in Row Number:5 - As expected
-[INFO ]2024-04-2919:45:21.278[main]utilities.Logger_Load1)-Delete Button is enabled in Row Number:5 - As expected
-[INFO ]2024-04-2919:45:22.299[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:45:26.567[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
-[INFO ]2024-04-2919:45:26.699[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
-[INFO ]2024-04-2919:45:26.753[main]utilities.Logger_Load1)-Search Bar is displayed - As expected
-[INFO ]2024-04-2919:45:26.777[main]utilities.Logger_Load1)-Search Text Search... is displayed - As expected
-[INFO ]2024-04-2919:45:27.733[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:45:31.982[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
-[INFO ]2024-04-2919:45:32.042[main]utilities.Logger_Load1)-Manage Program is present as expected...
-[INFO ]2024-04-2919:45:32.077[main]utilities.Logger_Load1)-SortIcon - Program Name is displayed - As expected
-[INFO ]2024-04-2919:45:32.159[main]utilities.Logger_Load1)-Sort Icon - Program Name is clicked successfully
-[INFO ]2024-04-2919:45:32.186[main]utilities.Logger_Load1)-Ascending SortIcon - Program Name is displayed - As expected
-[INFO ]2024-04-2919:45:33.251[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:45:37.374[main]utilities.Logger_Load1)-SortIcon - Program Name is displayed - As expected
-[INFO ]2024-04-2919:45:37.478[main]utilities.Logger_Load1)-Sort Icon - Program Name is clicked successfully
-[INFO ]2024-04-2919:45:37.519[main]utilities.Logger_Load1)-Ascending SortIcon - Program Name is displayed - As expected
-[INFO ]2024-04-2919:45:37.551[main]utilities.Logger_Load1)-SortIcon - Program Name is displayed - As expected
-[INFO ]2024-04-2919:45:37.610[main]utilities.Logger_Load1)-Sort Icon - Program Name is clicked successfully
-[INFO ]2024-04-2919:45:37.644[main]utilities.Logger_Load1)-Descending SortIcon - Program Name is displayed - As expected
-[INFO ]2024-04-2919:45:38.588[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:45:42.934[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
-[INFO ]2024-04-2919:45:42.988[main]utilities.Logger_Load1)-Manage Program is present as expected...
-[INFO ]2024-04-2919:45:43.020[main]utilities.Logger_Load1)-SortIcon - Program Description is displayed - As expected
-[INFO ]2024-04-2919:45:43.105[main]utilities.Logger_Load1)-Sort Icon - Program Description is clicked successfully
-[INFO ]2024-04-2919:45:43.134[main]utilities.Logger_Load1)-Ascending SortIcon - Program Description is displayed - As expected
-[INFO ]2024-04-2919:45:44.088[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:45:48.310[main]utilities.Logger_Load1)-SortIcon - Program Description is displayed - As expected
-[INFO ]2024-04-2919:45:48.414[main]utilities.Logger_Load1)-Sort Icon - Program Description is clicked successfully
-[INFO ]2024-04-2919:45:48.451[main]utilities.Logger_Load1)-Ascending SortIcon - Program Description is displayed - As expected
-[INFO ]2024-04-2919:45:48.479[main]utilities.Logger_Load1)-SortIcon - Program Description is displayed - As expected
-[INFO ]2024-04-2919:45:48.546[main]utilities.Logger_Load1)-Sort Icon - Program Description is clicked successfully
-[INFO ]2024-04-2919:45:48.577[main]utilities.Logger_Load1)-Descending SortIcon - Program Description is displayed - As expected
-[INFO ]2024-04-2919:45:49.479[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:45:57.241[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
-[INFO ]2024-04-2919:45:57.302[main]utilities.Logger_Load1)-Manage Program is present as expected...
-[INFO ]2024-04-2919:45:57.335[main]utilities.Logger_Load1)-SortIcon - Program Status is displayed - As expected
-[INFO ]2024-04-2919:45:57.418[main]utilities.Logger_Load1)-Sort Icon - Program Status is clicked successfully
-[INFO ]2024-04-2919:45:57.450[main]utilities.Logger_Load1)-Ascending SortIcon - Program Status is displayed - As expected
-[INFO ]2024-04-2919:45:58.406[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:46:02.453[main]utilities.Logger_Load1)-SortIcon - Program Status is displayed - As expected
-[INFO ]2024-04-2919:46:02.555[main]utilities.Logger_Load1)-Sort Icon - Program Status is clicked successfully
-[INFO ]2024-04-2919:46:02.589[main]utilities.Logger_Load1)-Ascending SortIcon - Program Status is displayed - As expected
-[INFO ]2024-04-2919:46:02.614[main]utilities.Logger_Load1)-SortIcon - Program Status is displayed - As expected
-[INFO ]2024-04-2919:46:02.671[main]utilities.Logger_Load1)-Sort Icon - Program Status is clicked successfully
-[INFO ]2024-04-2919:46:02.697[main]utilities.Logger_Load1)-Descending SortIcon - Program Status is displayed - As expected
-[INFO ]2024-04-2919:46:03.602[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:46:07.986[main]utilities.Logger_Load1)-Manage Program is present as expected...
-[INFO ]2024-04-2919:46:08.030[main]utilities.Logger_Load1)-Pagination - Next button is displayed - As expected
-[INFO ]2024-04-2919:46:08.113[main]utilities.Logger_Load1)-Pagination - Next button is clicked successfully
-[INFO ]2024-04-2919:46:08.162[main]utilities.Logger_Load1)-Pagination - Admin is able to navigate to Next Page - As expected
-[INFO ]2024-04-2919:46:09.090[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:46:13.143[main]utilities.Logger_Load1)-Manage Program is present as expected...
-[ERROR]2024-04-2919:46:13.181[main]utilities.Logger_Load1)-Pagination - Last button is not displayed - As expected
-[INFO ]2024-04-2919:46:13.286[main]utilities.Logger_Load1)-Pagination - Last button is clicked successfully
-[INFO ]2024-04-2919:46:13.317[main]utilities.Logger_Load1)-Pagination - Admin is able to navigate to Last Page - As expected
-[INFO ]2024-04-2919:46:14.287[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:46:18.369[main]utilities.Logger_Load1)-Manage Program is present as expected...
-[INFO ]2024-04-2919:46:18.421[main]utilities.Logger_Load1)-Pagination - Last button is displayed - As expected
-[INFO ]2024-04-2919:46:18.503[main]utilities.Logger_Load1)-Pagination - Last button is clicked successfully
-[INFO ]2024-04-2919:46:18.534[main]utilities.Logger_Load1)-Pagination - Previous button is displayed - As expected
-[INFO ]2024-04-2919:46:18.602[main]utilities.Logger_Load1)-Pagination - Previous button is clicked successfully
-[INFO ]2024-04-2919:46:18.653[main]utilities.Logger_Load1)-Pagination - Admin is able to navigate to Previous Page - As expected
-[INFO ]2024-04-2919:46:19.592[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:46:24.205[main]utilities.Logger_Load1)-Manage Program is present as expected...
-[INFO ]2024-04-2919:46:24.249[main]utilities.Logger_Load1)-Pagination - Last button is displayed - As expected
-[INFO ]2024-04-2919:46:24.343[main]utilities.Logger_Load1)-Pagination - Last button is clicked successfully
-[INFO ]2024-04-2919:46:24.372[main]utilities.Logger_Load1)-Pagination - Previous button is displayed - As expected
-[INFO ]2024-04-2919:46:24.432[main]utilities.Logger_Load1)-Pagination - Previous button is clicked successfully
-[INFO ]2024-04-2919:46:24.470[main]utilities.Logger_Load1)-Pagination - First button is displayed - As expected
-[INFO ]2024-04-2919:46:24.534[main]utilities.Logger_Load1)-Pagination - First button is clicked successfully
-[INFO ]2024-04-2919:46:24.570[main]utilities.Logger_Load1)-Pagination - Admin is able to navigate to First Page - As expected
-[INFO ]2024-04-2919:46:25.511[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:46:29.600[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
-[INFO ]2024-04-2919:46:29.651[main]utilities.Logger_Load1)-Manage Program is present as expected...
-[INFO ]2024-04-2919:46:29.740[main]utilities.Logger_Load1)-Clicked on Batch Button on navigation bar....
-[INFO ]2024-04-2919:46:29.779[main]utilities.Logger_Load1)-Manage Batch is present as expected...
-[INFO ]2024-04-2919:46:30.707[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:46:34.968[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
-[INFO ]2024-04-2919:46:35.013[main]utilities.Logger_Load1)-Manage Program is present as expected...
-[INFO ]2024-04-2919:46:35.118[main]utilities.Logger_Load1)-Clicked on User Button on navigation bar....
-[INFO ]2024-04-2919:46:35.157[main]utilities.Logger_Load1)-Manage User is present as expected...
-[INFO ]2024-04-2919:46:36.117[main]app_hooks.DriverManager1)-Launching chrome
-[INFO ]2024-04-2919:46:40.452[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
-[INFO ]2024-04-2919:46:40.496[main]utilities.Logger_Load1)-Manage Program is present as expected...
-[INFO ]2024-04-2919:46:40.605[main]utilities.Logger_Load1)-Clicked on Logout Button on navigation bar....
-[INFO ]2024-04-2919:46:40.642[main]utilities.Logger_Load1)-Logout is done successfully
-[INFO ]2024-04-2919:46:42.756[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.jq.Main@125c03d3: 547 ms
-[INFO ]2024-04-2919:46:42.757[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.FailedReporter@7e9ea888: 1 ms
-[INFO ]2024-04-2919:46:42.798[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.XMLReporter@5af8ef61: 41 ms
-[INFO ]2024-04-2919:46:42.813[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.EmailableReporter2@1b4ade78: 11 ms
-[INFO ]2024-04-2919:46:42.827[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.JUnitReportReporter@67748053: 13 ms
-[INFO ]2024-04-2919:46:42.829[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.internal.ExitCodeListener@7da59f6e: 0 ms
+[INFO ]2024-05-0119:45:06.813[main]org.testng.internal.Utils1)-[Utils] DynamicGraphHelper.createDynamicGraph() took 6 ms.
+[INFO ]2024-05-0119:45:08.426[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:45:13.433[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0119:45:13.434[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0119:45:14.942[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:45:18.765[main]utilities.Logger_Load1)-Admin is on LMS Home Page
+[INFO ]2024-05-0119:45:20.106[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:45:24.842[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:45:44.921[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:45:50.676[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:45:55.843[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:45:59.558[main]utilities.Logger_Load1)-Company logo is displayed.
+[INFO ]2024-05-0119:46:00.440[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:46:04.404[main]utilities.Logger_Load1)-Company logo is displayed.
+[INFO ]2024-05-0119:46:05.270[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:46:09.720[main]utilities.Logger_Load1)-Sign-in content is displayed.
+[INFO ]2024-05-0119:46:10.576[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:46:14.492[main]utilities.Logger_Load1)-Both username and password text fields are present
+[INFO ]2024-05-0119:46:15.349[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:46:19.043[main]utilities.Logger_Load1)-The username is present
+[INFO ]2024-05-0119:46:19.946[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:46:24.836[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:46:28.592[main]utilities.Logger_Load1)-The password is present
+[INFO ]2024-05-0119:46:29.382[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:46:34.423[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:46:40.361[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:46:45.313[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:46:50.011[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:46:54.503[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:46:58.966[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:47:04.022[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:47:07.881[main]step_definitions.LoginValidation_Step1)-Expected error message: 'Please fill out this field.', Actual error message: 'Please fill out this field.'
+[INFO ]2024-05-0119:47:08.870[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:47:12.633[main]step_definitions.LoginValidation_Step1)-Expected error message: 'Please fill out this field.', Actual error message: 'Please fill out this field.'
+[INFO ]2024-05-0119:47:13.530[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:47:18.057[main]step_definitions.LoginValidation_Step1)-Expected error message: 'Invalid username and password Please try again', Actual error message: 'Invalid username and password Please try again'
+[INFO ]2024-05-0119:47:18.921[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:47:24.259[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:47:29.203[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:47:34.132[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:47:39.168[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:47:43.802[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:47:47.468[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0119:47:47.468[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0119:47:48.380[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:47:52.166[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0119:47:52.166[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0119:47:53.289[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:47:57.500[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0119:47:57.500[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0119:47:58.464[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:48:02.723[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
+[INFO ]2024-05-0119:48:03.659[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:48:08.334[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
+[INFO ]2024-05-0119:48:09.229[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:48:29.397[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:48:33.537[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
+[INFO ]2024-05-0119:48:34.399[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:48:38.895[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
+[INFO ]2024-05-0119:48:39.840[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:48:44.342[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
+[INFO ]2024-05-0119:48:44.481[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
+[INFO ]2024-05-0119:48:44.494[main]utilities.Logger_Load1)-Admin is able to see URL in Manage Program
+[INFO ]2024-05-0119:48:45.442[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:48:49.572[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
+[INFO ]2024-05-0119:48:49.698[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
+[INFO ]2024-05-0119:48:49.741[main]utilities.Logger_Load1)-Manage Program is present as expected...
+[INFO ]2024-05-0119:48:50.592[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:48:54.850[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
+[INFO ]2024-05-0119:48:54.951[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
+[INFO ]2024-05-0119:48:54.991[main]utilities.Logger_Load1)-Pagination text is present as expected... Showing 1 to 5 of 122 entries
+[INFO ]2024-05-0119:48:55.836[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:48:59.928[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
+[INFO ]2024-05-0119:49:00.118[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
+[INFO ]2024-05-0119:49:00.164[main]utilities.Logger_Load1)-Footer text is present as expected... In total there are 122 programs.
+[INFO ]2024-05-0119:49:01.046[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:49:05.132[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
+[INFO ]2024-05-0119:49:05.237[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
+[INFO ]2024-05-0119:49:05.274[main]utilities.Logger_Load1)-The button Delete Button is disabled as expected....
+[INFO ]2024-05-0119:49:06.141[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:49:10.285[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
+[INFO ]2024-05-0119:49:10.389[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
+[INFO ]2024-05-0119:49:10.431[main]utilities.Logger_Load1)-The button Add Program Button is displayed as expected....
+[INFO ]2024-05-0119:49:11.301[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:49:15.700[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
+[INFO ]2024-05-0119:49:15.826[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
+[INFO ]2024-05-0119:49:15.845[main]utilities.Logger_Load1)-Total Number of records displayed is 5 - As expected
+[INFO ]2024-05-0119:49:16.732[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:49:20.783[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
+[INFO ]2024-05-0119:49:20.916[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
+[INFO ]2024-05-0119:49:20.941[main]utilities.Logger_Load1)-Program Table Headers are....
+[INFO ]2024-05-0119:49:20.974[main]utilities.Logger_Load1)-Program Name
+[INFO ]2024-05-0119:49:20.999[main]utilities.Logger_Load1)-Program Description
+[INFO ]2024-05-0119:49:21.028[main]utilities.Logger_Load1)-Program Status
+[INFO ]2024-05-0119:49:21.052[main]utilities.Logger_Load1)-Edit / Delete
+[INFO ]2024-05-0119:49:22.042[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:49:26.185[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
+[INFO ]2024-05-0119:49:26.293[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
+[INFO ]2024-05-0119:49:26.399[main]utilities.Logger_Load1)-Sort arrow icon is present in Program Name Header 
+[INFO ]2024-05-0119:49:26.399[main]utilities.Logger_Load1)-Sort arrow icon is present in Program Description Header 
+[INFO ]2024-05-0119:49:26.399[main]utilities.Logger_Load1)-Sort arrow icon is present in Program Status Header 
+[INFO ]2024-05-0119:49:27.279[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:49:31.536[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
+[INFO ]2024-05-0119:49:31.679[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
+[INFO ]2024-05-0119:49:31.737[main]utilities.Logger_Load1)-Check Box is present in Row Number:1 - As expected
+[INFO ]2024-05-0119:49:31.761[main]utilities.Logger_Load1)-Check Box is present in Row Number:2 - As expected
+[INFO ]2024-05-0119:49:31.786[main]utilities.Logger_Load1)-Check Box is present in Row Number:3 - As expected
+[INFO ]2024-05-0119:49:31.811[main]utilities.Logger_Load1)-Check Box is present in Row Number:4 - As expected
+[INFO ]2024-05-0119:49:31.837[main]utilities.Logger_Load1)-Check Box is present in Row Number:5 - As expected
+[INFO ]2024-05-0119:49:32.711[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:49:36.876[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
+[INFO ]2024-05-0119:49:37.012[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
+[INFO ]2024-05-0119:49:37.100[main]utilities.Logger_Load1)-Edit Button is present in Row Number:1 - As expected
+[INFO ]2024-05-0119:49:37.101[main]utilities.Logger_Load1)-Edit Button is enabled in Row Number:1 - As expected
+[INFO ]2024-05-0119:49:37.147[main]utilities.Logger_Load1)-Edit Button is present in Row Number:2 - As expected
+[INFO ]2024-05-0119:49:37.147[main]utilities.Logger_Load1)-Edit Button is enabled in Row Number:2 - As expected
+[INFO ]2024-05-0119:49:37.187[main]utilities.Logger_Load1)-Edit Button is present in Row Number:3 - As expected
+[INFO ]2024-05-0119:49:37.187[main]utilities.Logger_Load1)-Edit Button is enabled in Row Number:3 - As expected
+[INFO ]2024-05-0119:49:37.233[main]utilities.Logger_Load1)-Edit Button is present in Row Number:4 - As expected
+[INFO ]2024-05-0119:49:37.233[main]utilities.Logger_Load1)-Edit Button is enabled in Row Number:4 - As expected
+[INFO ]2024-05-0119:49:37.274[main]utilities.Logger_Load1)-Edit Button is present in Row Number:5 - As expected
+[INFO ]2024-05-0119:49:37.274[main]utilities.Logger_Load1)-Edit Button is enabled in Row Number:5 - As expected
+[INFO ]2024-05-0119:49:37.335[main]utilities.Logger_Load1)-Delete Button is present in Row Number:1 - As expected
+[INFO ]2024-05-0119:49:37.335[main]utilities.Logger_Load1)-Delete Button is enabled in Row Number:1 - As expected
+[INFO ]2024-05-0119:49:37.390[main]utilities.Logger_Load1)-Delete Button is present in Row Number:2 - As expected
+[INFO ]2024-05-0119:49:37.390[main]utilities.Logger_Load1)-Delete Button is enabled in Row Number:2 - As expected
+[INFO ]2024-05-0119:49:37.438[main]utilities.Logger_Load1)-Delete Button is present in Row Number:3 - As expected
+[INFO ]2024-05-0119:49:37.439[main]utilities.Logger_Load1)-Delete Button is enabled in Row Number:3 - As expected
+[INFO ]2024-05-0119:49:37.500[main]utilities.Logger_Load1)-Delete Button is present in Row Number:4 - As expected
+[INFO ]2024-05-0119:49:37.501[main]utilities.Logger_Load1)-Delete Button is enabled in Row Number:4 - As expected
+[INFO ]2024-05-0119:49:37.546[main]utilities.Logger_Load1)-Delete Button is present in Row Number:5 - As expected
+[INFO ]2024-05-0119:49:37.547[main]utilities.Logger_Load1)-Delete Button is enabled in Row Number:5 - As expected
+[INFO ]2024-05-0119:49:38.395[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:49:42.613[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
+[INFO ]2024-05-0119:49:42.731[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
+[INFO ]2024-05-0119:49:42.776[main]utilities.Logger_Load1)-Search Bar is displayed - As expected
+[INFO ]2024-05-0119:49:42.795[main]utilities.Logger_Load1)-Search Text Search... is displayed - As expected
+[INFO ]2024-05-0119:49:43.651[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:49:48.632[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
+[INFO ]2024-05-0119:49:48.676[main]utilities.Logger_Load1)-Manage Program is present as expected...
+[INFO ]2024-05-0119:49:48.718[main]utilities.Logger_Load1)-SortIcon - Program Name is displayed - As expected
+[INFO ]2024-05-0119:49:48.796[main]utilities.Logger_Load1)-Sort Icon - Program Name is clicked successfully
+[INFO ]2024-05-0119:49:48.843[main]utilities.Logger_Load1)-Ascending SortIcon - Program Name is displayed - As expected
+[INFO ]2024-05-0119:49:49.766[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:49:53.851[main]utilities.Logger_Load1)-SortIcon - Program Name is displayed - As expected
+[INFO ]2024-05-0119:49:53.975[main]utilities.Logger_Load1)-Sort Icon - Program Name is clicked successfully
+[INFO ]2024-05-0119:49:54.007[main]utilities.Logger_Load1)-Ascending SortIcon - Program Name is displayed - As expected
+[INFO ]2024-05-0119:49:54.045[main]utilities.Logger_Load1)-SortIcon - Program Name is displayed - As expected
+[INFO ]2024-05-0119:49:54.105[main]utilities.Logger_Load1)-Sort Icon - Program Name is clicked successfully
+[INFO ]2024-05-0119:49:54.129[main]utilities.Logger_Load1)-Descending SortIcon - Program Name is displayed - As expected
+[INFO ]2024-05-0119:49:54.992[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:49:59.502[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
+[INFO ]2024-05-0119:49:59.550[main]utilities.Logger_Load1)-Manage Program is present as expected...
+[INFO ]2024-05-0119:49:59.608[main]utilities.Logger_Load1)-SortIcon - Program Description is displayed - As expected
+[INFO ]2024-05-0119:49:59.678[main]utilities.Logger_Load1)-Sort Icon - Program Description is clicked successfully
+[INFO ]2024-05-0119:49:59.709[main]utilities.Logger_Load1)-Ascending SortIcon - Program Description is displayed - As expected
+[INFO ]2024-05-0119:50:00.638[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:50:05.459[main]utilities.Logger_Load1)-SortIcon - Program Description is displayed - As expected
+[INFO ]2024-05-0119:50:05.586[main]utilities.Logger_Load1)-Sort Icon - Program Description is clicked successfully
+[INFO ]2024-05-0119:50:05.618[main]utilities.Logger_Load1)-Ascending SortIcon - Program Description is displayed - As expected
+[INFO ]2024-05-0119:50:05.645[main]utilities.Logger_Load1)-SortIcon - Program Description is displayed - As expected
+[INFO ]2024-05-0119:50:05.722[main]utilities.Logger_Load1)-Sort Icon - Program Description is clicked successfully
+[INFO ]2024-05-0119:50:05.748[main]utilities.Logger_Load1)-Descending SortIcon - Program Description is displayed - As expected
+[INFO ]2024-05-0119:50:06.583[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:50:10.889[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
+[INFO ]2024-05-0119:50:10.936[main]utilities.Logger_Load1)-Manage Program is present as expected...
+[INFO ]2024-05-0119:50:10.970[main]utilities.Logger_Load1)-SortIcon - Program Status is displayed - As expected
+[INFO ]2024-05-0119:50:11.033[main]utilities.Logger_Load1)-Sort Icon - Program Status is clicked successfully
+[INFO ]2024-05-0119:50:11.057[main]utilities.Logger_Load1)-Ascending SortIcon - Program Status is displayed - As expected
+[INFO ]2024-05-0119:50:11.953[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:50:16.281[main]utilities.Logger_Load1)-SortIcon - Program Status is displayed - As expected
+[INFO ]2024-05-0119:50:16.379[main]utilities.Logger_Load1)-Sort Icon - Program Status is clicked successfully
+[INFO ]2024-05-0119:50:16.411[main]utilities.Logger_Load1)-Ascending SortIcon - Program Status is displayed - As expected
+[INFO ]2024-05-0119:50:16.447[main]utilities.Logger_Load1)-SortIcon - Program Status is displayed - As expected
+[INFO ]2024-05-0119:50:16.508[main]utilities.Logger_Load1)-Sort Icon - Program Status is clicked successfully
+[INFO ]2024-05-0119:50:16.534[main]utilities.Logger_Load1)-Descending SortIcon - Program Status is displayed - As expected
+[INFO ]2024-05-0119:50:17.392[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:50:21.986[main]utilities.Logger_Load1)-Manage Program is present as expected...
+[INFO ]2024-05-0119:50:22.035[main]utilities.Logger_Load1)-Pagination - Next button is displayed - As expected
+[INFO ]2024-05-0119:50:22.132[main]utilities.Logger_Load1)-Pagination - Next button is clicked successfully
+[INFO ]2024-05-0119:50:22.179[main]utilities.Logger_Load1)-Pagination - Admin is able to navigate to Next Page - As expected
+[INFO ]2024-05-0119:50:23.024[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:50:27.966[main]utilities.Logger_Load1)-Manage Program is present as expected...
+[ERROR]2024-05-0119:50:28.003[main]utilities.Logger_Load1)-Pagination - Last button is not displayed - As expected
+[INFO ]2024-05-0119:50:28.121[main]utilities.Logger_Load1)-Pagination - Last button is clicked successfully
+[INFO ]2024-05-0119:50:28.156[main]utilities.Logger_Load1)-Pagination - Admin is able to navigate to Last Page - As expected
+[INFO ]2024-05-0119:50:28.990[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:50:33.744[main]utilities.Logger_Load1)-Manage Program is present as expected...
+[INFO ]2024-05-0119:50:33.780[main]utilities.Logger_Load1)-Pagination - Last button is displayed - As expected
+[INFO ]2024-05-0119:50:33.868[main]utilities.Logger_Load1)-Pagination - Last button is clicked successfully
+[INFO ]2024-05-0119:50:33.894[main]utilities.Logger_Load1)-Pagination - Previous button is displayed - As expected
+[INFO ]2024-05-0119:50:33.951[main]utilities.Logger_Load1)-Pagination - Previous button is clicked successfully
+[INFO ]2024-05-0119:50:33.994[main]utilities.Logger_Load1)-Pagination - Admin is able to navigate to Previous Page - As expected
+[INFO ]2024-05-0119:50:34.842[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:50:39.736[main]utilities.Logger_Load1)-Manage Program is present as expected...
+[INFO ]2024-05-0119:50:39.778[main]utilities.Logger_Load1)-Pagination - Last button is displayed - As expected
+[INFO ]2024-05-0119:50:39.885[main]utilities.Logger_Load1)-Pagination - Last button is clicked successfully
+[INFO ]2024-05-0119:50:39.910[main]utilities.Logger_Load1)-Pagination - Previous button is displayed - As expected
+[INFO ]2024-05-0119:50:39.969[main]utilities.Logger_Load1)-Pagination - Previous button is clicked successfully
+[INFO ]2024-05-0119:50:39.999[main]utilities.Logger_Load1)-Pagination - First button is displayed - As expected
+[INFO ]2024-05-0119:50:40.070[main]utilities.Logger_Load1)-Pagination - First button is clicked successfully
+[INFO ]2024-05-0119:50:40.099[main]utilities.Logger_Load1)-Pagination - Admin is able to navigate to First Page - As expected
+[INFO ]2024-05-0119:50:40.951[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:50:46.015[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
+[INFO ]2024-05-0119:50:46.061[main]utilities.Logger_Load1)-Manage Program is present as expected...
+[INFO ]2024-05-0119:50:46.152[main]utilities.Logger_Load1)-Clicked on Batch Button on navigation bar....
+[INFO ]2024-05-0119:50:46.186[main]utilities.Logger_Load1)-Manage Batch is present as expected...
+[INFO ]2024-05-0119:50:47.061[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:50:51.434[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
+[INFO ]2024-05-0119:50:51.481[main]utilities.Logger_Load1)-Manage Program is present as expected...
+[INFO ]2024-05-0119:50:51.595[main]utilities.Logger_Load1)-Clicked on User Button on navigation bar....
+[INFO ]2024-05-0119:50:51.647[main]utilities.Logger_Load1)-Manage User is present as expected...
+[INFO ]2024-05-0119:50:52.599[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:50:56.904[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
+[INFO ]2024-05-0119:50:56.952[main]utilities.Logger_Load1)-Manage Program is present as expected...
+[INFO ]2024-05-0119:50:57.055[main]utilities.Logger_Load1)-Clicked on Logout Button on navigation bar....
+[INFO ]2024-05-0119:50:57.087[main]utilities.Logger_Load1)-Logout is done successfully
+[INFO ]2024-05-0119:50:57.939[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:51:02.531[main]utilities.Logger_Load1)-NewPopup is displayed
+[INFO ]2024-05-0119:51:03.449[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:51:08.774[main]utilities.Logger_Load1)-NewPopup is displayed
+[INFO ]2024-05-0119:51:09.653[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:51:14.076[main]utilities.Logger_Load1)-NewPopup is displayed
+[INFO ]2024-05-0119:51:14.982[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:51:19.255[main]utilities.Logger_Load1)-NewPopup is displayed
+[INFO ]2024-05-0119:51:20.212[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:51:25.635[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:51:30.774[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:51:35.155[main]utilities.Logger_Load1)-ProgramDetail is displayed
+[INFO ]2024-05-0119:51:45.274[main]utilities.Logger_Load1)-ProgramDetail is displayed
+[INFO ]2024-05-0119:51:46.137[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:51:50.718[main]utilities.Logger_Load1)-ProgramDetail is displayed
+[INFO ]2024-05-0119:51:51.889[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:51:56.560[main]utilities.Logger_Load1)-ProgramDetail is displayed
+[INFO ]2024-05-0119:51:57.713[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:52:02.236[main]utilities.Logger_Load1)-ProgramDetail is displayed
+[INFO ]2024-05-0119:52:03.353[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:52:07.679[main]utilities.Logger_Load1)-ProgramDetail is displayed
+[INFO ]2024-05-0119:52:18.044[main]utilities.Logger_Load1)-ProgramDetail is displayed
+[INFO ]2024-05-0119:52:19.331[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:52:23.381[main]utilities.Logger_Load1)-ProgramDetail is displayed
+[INFO ]2024-05-0119:52:24.422[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:52:28.724[main]utilities.Logger_Load1)-ProgramDetail is displayed
+[INFO ]2024-05-0119:52:30.076[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:52:34.285[main]utilities.Logger_Load1)-ProgramDetail is displayed
+[INFO ]2024-05-0119:52:35.363[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:52:40.952[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:52:46.378[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:52:51.850[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:52:57.391[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:53:02.852[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:53:07.277[main]utilities.Logger_Load1)-AlertPopup is displayed
+[INFO ]2024-05-0119:53:08.315[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:53:12.538[main]utilities.Logger_Load1)-AlertPopup is displayed
+[INFO ]2024-05-0119:53:13.530[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:53:17.830[main]utilities.Logger_Load1)-AlertPopup is displayed
+[INFO ]2024-05-0119:53:17.972[main]utilities.Logger_Load1)-AlertPopup is not displayed
+[INFO ]2024-05-0119:53:18.904[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:53:23.191[main]utilities.Logger_Load1)-AlertPopup is displayed
+[INFO ]2024-05-0119:53:23.332[main]utilities.Logger_Load1)-AlertPopup is displayed
+[INFO ]2024-05-0119:53:24.255[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:53:28.387[main]utilities.Logger_Load1)-AlertPopup is displayed
+[INFO ]2024-05-0119:53:44.304[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:53:48.705[main]utilities.Logger_Load1)-All Checkbox selected
+[INFO ]2024-05-0119:53:49.584[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:53:54.218[main]utilities.Logger_Load1)-All Checkbox selected
+[INFO ]2024-05-0119:53:55.089[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:53:58.038[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:54:02.922[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
+[INFO ]2024-05-0119:54:03.086[main]utilities.Logger_Load1)-Manage Batch is present as expected...
+[INFO ]2024-05-0119:54:03.962[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:54:08.642[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
+[INFO ]2024-05-0119:54:08.820[main]utilities.Logger_Load1)-admin see the pagintion
+[INFO ]2024-05-0119:54:09.702[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:54:13.742[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
+[ERROR]2024-05-0119:54:13.900[main]utilities.Logger_Load1)-Batch Table Header is not as expected
+[INFO ]2024-05-0119:54:14.935[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:54:18.083[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:54:22.258[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
+[INFO ]2024-05-0119:54:23.447[main]utilities.Logger_Load1)-Batch Page + A New Batch Button is Visible !!
+[INFO ]2024-05-0119:54:24.297[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:54:28.393[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
+[INFO ]2024-05-0119:54:28.696[main]utilities.Logger_Load1)-row0 have checkbox
+[INFO ]2024-05-0119:54:28.696[main]utilities.Logger_Load1)-row pencil icon is enabled
+[INFO ]2024-05-0119:54:28.696[main]utilities.Logger_Load1)-row Trash icon is enabled
+[INFO ]2024-05-0119:54:29.571[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:54:33.715[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
+[INFO ]2024-05-0119:54:34.992[main]utilities.Logger_Load1)-Popup is displayed
+[INFO ]2024-05-0119:54:35.839[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:54:39.846[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0119:54:39.846[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0119:54:40.416[main]utilities.Logger_Load1)-NewPopup is displayed
+[INFO ]2024-05-0119:54:40.563[main]utilities.Logger_Load1)-name field is a text boxtrue
+[INFO ]2024-05-0119:54:40.563[main]utilities.Logger_Load1)-Description field is a text boxtrue
+[INFO ]2024-05-0119:54:40.564[main]utilities.Logger_Load1)-Programname field is a drop downtrue
+[INFO ]2024-05-0119:54:40.564[main]utilities.Logger_Load1)-status field is a radio buttontrue
+[INFO ]2024-05-0119:54:40.564[main]utilities.Logger_Load1)-no.of classes field is a text boxtrue
+[INFO ]2024-05-0119:54:41.524[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:54:45.634[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0119:54:45.634[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0119:54:46.181[main]utilities.Logger_Load1)-NewPopup is displayed
+[INFO ]2024-05-0119:54:47.834[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:54:51.772[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0119:54:51.773[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0119:54:52.354[main]utilities.Logger_Load1)-NewPopup is displayed
+[INFO ]2024-05-0119:55:05.315[main]utilities.Logger_Load1)- New Batch created
+[INFO ]2024-05-0119:55:06.288[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:55:10.160[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0119:55:10.160[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0119:55:10.779[main]utilities.Logger_Load1)-NewPopup is displayed
+[INFO ]2024-05-0119:55:19.465[main]utilities.Logger_Load1)-Failed
+[INFO ]2024-05-0119:55:20.328[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:55:24.417[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0119:55:24.417[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0119:55:24.984[main]utilities.Logger_Load1)-NewPopup is displayed
+[INFO ]2024-05-0119:55:32.621[main]utilities.Logger_Load1)-Number of classes is required.
+[INFO ]2024-05-0119:55:33.524[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:55:37.483[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0119:55:37.496[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0119:55:37.972[main]utilities.Logger_Load1)-row Trash icon is enabled
+[INFO ]2024-05-0119:55:38.122[main]utilities.Logger_Load1)-Batch Detailspop up appers
+[INFO ]2024-05-0119:55:38.978[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:55:42.973[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0119:55:42.973[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0119:55:50.863[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:55:55.051[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0119:55:55.051[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0119:56:03.111[main]utilities.Logger_Load1)-This field should start with an alphabet and min 2 character.
+[INFO ]2024-05-0119:56:04.168[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:56:10.146[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0119:56:10.146[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0119:56:17.935[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:56:21.683[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0119:56:21.683[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0119:56:25.424[main]utilities.Logger_Load1)-batch Updateddisplay
+[INFO ]2024-05-0119:56:26.307[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:56:30.254[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0119:56:30.254[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0119:56:30.672[main]utilities.Logger_Load1)-row Trash icon is enabled
+[INFO ]2024-05-0119:56:36.836[main]utilities.Logger_Load1)-Alert msg withAre you sure you want to delete Batch027?found
+[INFO ]2024-05-0119:56:37.684[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:56:41.488[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0119:56:41.488[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0119:56:44.302[main]utilities.Logger_Load1)-Successfully batch Deleted
+[INFO ]2024-05-0119:56:45.191[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:56:49.207[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0119:56:49.207[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0119:56:53.846[main]utilities.Logger_Load1)-Batch still presentBatch028
+[INFO ]2024-05-0119:56:54.687[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:56:58.622[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0119:56:58.622[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0119:56:59.012[main]utilities.Logger_Load1)-no check box selected
+[INFO ]2024-05-0119:56:59.060[main]utilities.Logger_Load1)-trash icon disabled
+[INFO ]2024-05-0119:56:59.937[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:57:04.116[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0119:57:04.116[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0119:57:06.859[main]utilities.Logger_Load1)-Successfully Batches Deleted
+[INFO ]2024-05-0119:57:07.693[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:57:12.154[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0119:57:12.154[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0119:57:15.500[main]utilities.Logger_Load1)-Successfully Batches Deleted
+[INFO ]2024-05-0119:57:16.360[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:57:20.606[main]utilities.Logger_Load1)-Clicked on Program Button on navigation bar....
+[INFO ]2024-05-0119:57:20.657[main]utilities.Logger_Load1)-Manage Program is present as expected...
+[INFO ]2024-05-0119:57:21.725[main]utilities.Logger_Load1)-Scenario1
+[ERROR]2024-05-0119:57:30.497[main]utilities.Logger_Load1)-Program is not created successfully
+[INFO ]2024-05-0119:57:30.497[main]utilities.Logger_Load1)-Scenario2
+[INFO ]2024-05-0119:57:38.981[main]utilities.Logger_Load1)-Program is created successfully
+[INFO ]2024-05-0119:57:38.981[main]utilities.Logger_Load1)-Program Name Created: WebTestingProgram1
+[INFO ]2024-05-0119:57:38.981[main]utilities.Logger_Load1)-Scenario3
+[ERROR]2024-05-0119:57:47.592[main]utilities.Logger_Load1)-Program is not created successfully
+[INFO ]2024-05-0119:57:48.471[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0119:57:52.779[main]utilities.Logger_Load1)-Admin is on dashboard page after Login...
+[INFO ]2024-05-0119:57:52.990[main]utilities.Logger_Load1)-Scenario1
+[INFO ]2024-05-0119:58:05.132[main]utilities.Logger_Load1)-Batch is created successfully
+[INFO ]2024-05-0119:58:05.132[main]utilities.Logger_Load1)-Batch Name Created: Data Batch QA
+[INFO ]2024-05-0119:58:05.132[main]utilities.Logger_Load1)-Scenario2
+[ERROR]2024-05-0119:58:16.940[main]utilities.Logger_Load1)-Batch is not created successfully
+[INFO ]2024-05-0119:58:16.940[main]utilities.Logger_Load1)-Scenario3
+[ERROR]2024-05-0119:58:28.779[main]utilities.Logger_Load1)-Batch is not created successfully
+[INFO ]2024-05-0119:58:30.553[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.jq.Main@5933c961: 251 ms
+[INFO ]2024-05-0119:58:30.584[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.FailedReporter@4913ac97: 31 ms
+[INFO ]2024-05-0119:58:30.647[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.XMLReporter@14b59871: 63 ms
+[INFO ]2024-05-0119:58:30.694[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.EmailableReporter2@5beaccd4: 47 ms
+[INFO ]2024-05-0119:58:30.741[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.JUnitReportReporter@17d96a31: 47 ms
+[INFO ]2024-05-0119:58:30.741[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.internal.ExitCodeListener@1d0442a2: 0 ms
+[INFO ]2024-05-0120:39:20.577[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0120:39:25.477[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0120:39:25.477[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0120:39:27.593[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0120:39:31.675[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0120:39:31.677[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0120:39:33.706[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0120:39:37.765[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0120:39:37.766[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0120:39:40.799[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0120:39:44.634[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0120:39:44.635[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0120:39:48.782[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0120:39:53.412[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0120:39:53.412[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0120:39:55.428[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0120:39:59.372[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0120:39:59.372[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0120:40:02.390[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0120:40:06.271[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0120:40:06.272[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0120:40:09.258[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0120:40:13.139[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0120:40:13.139[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0120:40:16.132[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0120:40:20.249[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0120:40:20.250[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0120:40:23.232[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0120:40:26.968[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0120:40:26.969[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0120:40:29.935[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0120:40:33.744[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0120:40:33.745[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0120:40:42.087[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0120:40:46.626[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0120:40:46.627[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0120:40:55.288[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0120:40:59.126[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0120:40:59.126[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0120:42:14.773[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0120:42:19.286[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0120:42:19.286[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0120:42:24.507[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0120:42:28.706[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0120:42:28.706[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0121:37:55.745[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0121:38:01.731[main]utilities.Logger_Load1)-AlertPopup is displayed
+[INFO ]2024-05-0121:38:02.885[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0121:38:08.198[main]utilities.Logger_Load1)-AlertPopup is displayed
+[INFO ]2024-05-0121:38:09.758[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0121:38:14.481[main]utilities.Logger_Load1)-AlertPopup is not displayed
+[INFO ]2024-05-0121:38:14.625[main]utilities.Logger_Load1)-AlertPopup is not displayed
+[INFO ]2024-05-0121:38:15.666[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0121:38:20.330[main]utilities.Logger_Load1)-AlertPopup is displayed
+[INFO ]2024-05-0121:38:20.455[main]utilities.Logger_Load1)-AlertPopup is displayed
+[INFO ]2024-05-0121:38:21.409[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0121:38:26.284[main]utilities.Logger_Load1)-AlertPopup is displayed
+[INFO ]2024-05-0122:32:36.929[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0122:32:41.762[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0122:32:41.762[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0122:32:49.477[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0122:32:53.660[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0122:32:53.660[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0122:33:01.618[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0122:33:06.836[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0122:33:06.836[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0122:34:44.847[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0122:34:49.725[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0122:34:49.726[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0122:35:06.378[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0122:35:10.658[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0122:35:10.658[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0122:35:22.301[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0122:35:26.646[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0122:35:26.648[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0122:35:36.195[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0122:35:40.163[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0122:35:40.163[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0122:35:47.564[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0122:35:51.911[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0122:35:51.912[main]utilities.Logger_Load1)-Title is LMS as expected
+[INFO ]2024-05-0122:36:02.703[main]app_hooks.DriverManager1)-Launching chrome
+[INFO ]2024-05-0122:36:07.000[main]utilities.Logger_Load1)-LMS
+[INFO ]2024-05-0122:36:07.000[main]utilities.Logger_Load1)-Title is LMS as expected
